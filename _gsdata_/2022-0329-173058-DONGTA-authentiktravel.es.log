@@ -1,0 +1,15 @@
+FTP: Use MLST/MLSD command to list files
+FTP: Server rejected UTF-8 that it promised us: Unknown command
+New _gsdata_ folder(s) created, so rescan all job folders for their ghosts
+===== 3/29/2022 5:31:01 PM: Job 'authentiktravel.es': SYNC started by User on computer 'DONGTA' =====
+authentiktravel.es: D:\xampp\htdocs\authentiktravel.es <-> ftp://authentiktravel.es, SavePrevVers, CleanupPrevVers=30d, CleanupOldGens=24m, TmpDest, EstReq, CopyLocked, DetectMovesAndRenames, DetectFolderMoves, FileLinksDrill, Reconnect=3, ChangeLimit=10
+Locking folder D:\xampp\htdocs\authentiktravel.es for write
+Locking folder ftp://authentiktravel.es for write
+Copy Over 'ftp://authentiktravel.es/backend/controllers/BooktourController.php' -> 'D:\xampp\htdocs\authentiktravel.es\backend\controllers\BooktourController.php'
+Save State File D:\xampp\htdocs\authentiktravel.es\_gsdata_\_file_state_v4._gs
+Save State File ftp://authentiktravel.es/_gsdata_/_file_state_v4._gs
+Items Synced OK: 1, Errors: 0
+===== 3/29/2022 5:31:10 PM: Sync Completed. Time: 00:00:12, Speed:  =====
+Unlocking folder (set insync file) D:\xampp\htdocs\authentiktravel.es\_gsdata_\_insync_v4.gsl
+Unlocking folder (set insync file) ftp://authentiktravel.es/_gsdata_/_insync_v4.gsl
+

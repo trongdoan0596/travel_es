@@ -1,0 +1,147 @@
+[05-Oct-2017 02:34:14 UTC] PHP Warning:  require(/home/ngoctudinh/authentiktravel.com/backend/../common/config/main.php): failed to open stream: No such file or directory in /home/ngoctudinh/authentiktravel.com/backend/index.php on line 9
+[05-Oct-2017 02:34:14 UTC] PHP Fatal error:  require(): Failed opening required '/home/ngoctudinh/authentiktravel.com/backend/../common/config/main.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/ngoctudinh/authentiktravel.com/backend/index.php on line 9
+[05-Oct-2017 02:34:14 UTC] PHP Warning:  require(/home/ngoctudinh/authentiktravel.com/backend/../common/config/main.php): failed to open stream: No such file or directory in /home/ngoctudinh/authentiktravel.com/backend/index.php on line 9
+[05-Oct-2017 02:34:14 UTC] PHP Fatal error:  require(): Failed opening required '/home/ngoctudinh/authentiktravel.com/backend/../common/config/main.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/ngoctudinh/authentiktravel.com/backend/index.php on line 9
+[05-Oct-2017 02:34:17 UTC] PHP Warning:  require(/home/ngoctudinh/authentiktravel.com/backend/../common/config/main.php): failed to open stream: No such file or directory in /home/ngoctudinh/authentiktravel.com/backend/index.php on line 9
+[05-Oct-2017 02:34:17 UTC] PHP Fatal error:  require(): Failed opening required '/home/ngoctudinh/authentiktravel.com/backend/../common/config/main.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/ngoctudinh/authentiktravel.com/backend/index.php on line 9
+[05-Oct-2017 02:34:19 UTC] PHP Warning:  require(/home/ngoctudinh/authentiktravel.com/backend/../common/config/main.php): failed to open stream: No such file or directory in /home/ngoctudinh/authentiktravel.com/backend/index.php on line 9
+[05-Oct-2017 02:34:19 UTC] PHP Fatal error:  require(): Failed opening required '/home/ngoctudinh/authentiktravel.com/backend/../common/config/main.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/ngoctudinh/authentiktravel.com/backend/index.php on line 9
+[05-Oct-2017 02:34:20 UTC] PHP Warning:  require(/home/ngoctudinh/authentiktravel.com/backend/../common/config/main.php): failed to open stream: No such file or directory in /home/ngoctudinh/authentiktravel.com/backend/index.php on line 9
+[05-Oct-2017 02:34:20 UTC] PHP Fatal error:  require(): Failed opening required '/home/ngoctudinh/authentiktravel.com/backend/../common/config/main.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/ngoctudinh/authentiktravel.com/backend/index.php on line 9
+[11-Jul-2018 09:57:25 UTC] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /home/ngoctudinh/authentiktravel.es/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/ngoctudinh/authentiktravel.es/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 /home/ngoctudinh/authentiktravel.es/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "site/login". in /home/ngoctudinh/authentiktravel.es/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/ngoctudinh/authentiktravel.es/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#1 /home/ngoctudinh/authentiktravel.es/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/ngoctudinh/authentiktravel.es/backend/index.php(13): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/ngoctudinh/authentiktravel.es/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/ngoctudinh/authentiktravel.es/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ngoctudinh/authentiktravel.es/backend/index.php(13): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '__zlcmid=nGhTAAyZgbteUA; _ga=GA1.2.2110533533.1530859591; _csrf=6a0b8863af73a841c63065ecf82564c4cce49290f3e50f00337d99942f993bc5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Jl5bu6pZQTAd8RgxG2ATz8-nQMlemsCs%22%3B%7D; _BdSesId=4dc8ab4c3d943a9e752eeec61d9d0f43',
+    'HTTP_HOST' => 'authentiktravel.es',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_DNT' => '1',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'W0XUhSZRkdUtZl71Y0XGWgAAAxE',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'authentiktravel.es',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W0XUhSZRkdUtZl71Y0XGWgAAAxE',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'authentiktravel.es',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'authentiktravel.es',
+    'SERVER_ADDR' => '160.153.162.135',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '14.162.35.49',
+    'DOCUMENT_ROOT' => '/home/ngoctudinh/authentiktravel.es',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ngoctudinh/authentiktravel.es',
+    'SERVER_ADMIN' => 'webmaster@authentiktravel.authentikvietnam.com',
+    'SCRIPT_FILENAME' => '/home/ngoctudinh/authentiktravel.es/backend/index.php',
+    'REMOTE_PORT' => '63366',
+    'REDIRECT_URL' => '/backend/site/login',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/backend/site/login',
+    'SCRIPT_NAME' => '/backend/index.php',
+    'PHP_SELF' => '/backend/index.php',
+    'REQUEST_TIME_FLOAT' => 1531303045.0228030681610107421875,
+    'REQUEST_TIME' => 1531303045,
+]
+[11-Jul-2018 09:57:26 UTC] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /home/ngoctudinh/authentiktravel.es/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/ngoctudinh/authentiktravel.es/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('site/error')
+#1 /home/ngoctudinh/authentiktravel.es/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "site/login". in /home/ngoctudinh/authentiktravel.es/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/ngoctudinh/authentiktravel.es/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#1 /home/ngoctudinh/authentiktravel.es/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/ngoctudinh/authentiktravel.es/backend/index.php(13): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/ngoctudinh/authentiktravel.es/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/ngoctudinh/authentiktravel.es/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ngoctudinh/authentiktravel.es/backend/index.php(13): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '__zlcmid=nGhTAAyZgbteUA; _ga=GA1.2.2110533533.1530859591; _csrf=6a0b8863af73a841c63065ecf82564c4cce49290f3e50f00337d99942f993bc5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Jl5bu6pZQTAd8RgxG2ATz8-nQMlemsCs%22%3B%7D; _BdSesId=4dc8ab4c3d943a9e752eeec61d9d0f43',
+    'HTTP_HOST' => 'authentiktravel.es',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_DNT' => '1',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'REDIRECT_UNIQUE_ID' => 'W0XUhnK4ve6bXC6-5da83AAAAAA',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'authentiktravel.es',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W0XUhnK4ve6bXC6-5da83AAAAAA',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'authentiktravel.es',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'authentiktravel.es',
+    'SERVER_ADDR' => '160.153.162.135',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '14.162.35.49',
+    'DOCUMENT_ROOT' => '/home/ngoctudinh/authentiktravel.es',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ngoctudinh/authentiktravel.es',
+    'SERVER_ADMIN' => 'webmaster@authentiktravel.authentikvietnam.com',
+    'SCRIPT_FILENAME' => '/home/ngoctudinh/authentiktravel.es/backend/index.php',
+    'REMOTE_PORT' => '63367',
+    'REDIRECT_URL' => '/backend/site/login',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/backend/site/login',
+    'SCRIPT_NAME' => '/backend/index.php',
+    'PHP_SELF' => '/backend/index.php',
+    'REQUEST_TIME_FLOAT' => 1531303046.2986240386962890625,
+    'REQUEST_TIME' => 1531303046,
+]
+[29-Nov-2019 02:41:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/ngoctudinh/authentiktravel.es/vendor/yiisoft/yii2/log/Logger.php on line 148

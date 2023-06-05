@@ -1,0 +1,2613 @@
+@charset 'UTF-8';
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(../fonts/OpenSans.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face{   
+    src:url(../fonts/ExtraBold/OpenSans-ExtraBold.ttf) format("truetype");
+    src:local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'),url(../fonts/ExtraBold/OpenSans-ExtraBold.woff2) format("woff2");    
+}
+@font-face{
+    font-family: 'Open Sans Semibold';
+    font-style: normal;
+    font-weight: 600;
+    src:url(../fonts/Semibold/OpenSans-Semibold.ttf) format("truetype");
+    src:local('Open Sans Semibold'), local('OpenSans-Semibold'),url(../fonts/Semibold/OpenSans-Semibold.woff2) format("woff2");    
+}
+@font-face{   
+    font-family: 'Open Sans SemiboldItalic';
+    font-style: normal;
+    font-weight: 600;
+    src:url(../fonts/SemiboldItalic/OpenSans-Semibold.ttf) format("truetype");
+    src:local('Open Sans SemiboldItalic'), local('OpenSans-SemiboldItalic'),url(../fonts/SemiboldItalic/OpenSans-SemiboldItalic.woff2) format("woff2");    
+}
+@font-face{   
+    font-family: 'Open Sans Light';
+    font-weight: 400;
+    src:url(../fonts/Light/OpenSans-Light.ttf) format("truetype");
+    src:local('Open Sans Light'), local('OpenSans-Light'),url(../fonts/Light/OpenSans-Light.woff2) format("woff2");
+}
+@font-face{   
+    font-family: 'Open Sans ExtraBold';
+    font-weight: 800;
+    src:url(../fonts/ExtraBold/OpenSans-ExtraBold.ttf) format("truetype");
+    src:local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'),url(../fonts/ExtraBold/OpenSans-ExtraBold.woff2) format("woff2");    
+}
+@font-face{   
+    font-family: 'Open Sans Regular';
+    font-weight: 400;
+    src:url(../fonts/Regular/OpenSans-Regular.ttf) format("truetype");
+    src:local('Open Sans Regular'), local('OpenSans-Regular'),url(../fonts/Regular/OpenSans-Regular.woff2) format("woff2");    
+}
+html {
+  font: normal 14px / 24px Open Sans;   
+  background: #ffffff;
+  color: #2a2a2a;
+}
+body{
+   font-family: Open Sans !important;
+   font-style: normal;
+   font-size: 14px;
+   font-weight: 400;
+   font-variant: normal;
+   color: #2a2a2a;
+} 
+.main-content{
+    margin: 0px;
+    padding: 0px 10px 0px 10px;
+}
+.totalrecord {
+    color: #9C614D;
+    font:600 20px Open Sans Semibold !important;  
+}
+/*Breadcrumb*/
+.breadcrumb {
+    padding: 0px;
+    padding-bottom: 24px;
+}
+.breadcrumb > li + li::before {
+    color: #999999;
+    content: "> ";
+    padding: 0 5px;
+}
+.breadcrumb li {   
+    font-family:Open Sans;
+    font-weight: 400;  
+    height: 22px; 
+    list-style: none;
+    float: left;
+}
+.navbar-top{
+    background:none;
+    height: 109px;
+    padding-top:14px;
+}
+.backbuttom {
+     background: #fff;
+     padding-bottom: 30px;
+     padding-top: 30px;
+     text-align: center;   
+     padding-left: 20px;
+     padding-right: 20px;
+}
+.clsback {
+    font-family:Open Sans; 
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 8px;
+    color: #ffffff;    
+    border: none;
+    background: #009349;
+    border-radius: 28px;
+    height: 30px;
+    width: 120px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-top: 4px;   
+}
+.clsback:hover { 
+    color: #ffffff !important;
+    border-radius: 28px;
+    height: 30px;
+    width: 120px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    background:#a8401e;
+}
+.btnwrite {   
+    color: #fff;  
+    font-size: 16px;
+    font-weight: bold;
+    height: 46px;
+    padding-top: 8px;    
+    width: 230px;    
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 0px;
+    padding-bottom: 8px;
+    border: none;
+    background:#009349;
+    border-radius: 28px;
+}
+.btnwrite:hover{
+    color: #fff !important;   
+    background:#a8401e;  
+}
+
+.btnwrite .uk-icon-edit{
+    margin-right: 4px;
+}
+.btnreadmore {
+    font:600 14px Open Sans Semibold;  
+    color: #fff; 
+    background: #009349;
+    border:none;
+    padding: 8px;   
+    border-radius: 4px;    
+}
+.btnreadmore:hover {    
+    background: #008522;
+    color: #fff !important;
+}
+.btnplan {
+    font:600 14px Open Sans Semibold;  
+    color: #fff;  
+    width: 320px;
+    height: 46px;  
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 36px;
+    padding-right: 10px;
+    border: none;
+    background:#009349 url("../img/icon/location.png") no-repeat 8px 6px;
+    border-radius: 4px;
+}
+.btnplan:hover{
+    color: #fff !important;
+    background:#008522 url("../img/icon/location.png") no-repeat 8px 6px;    
+}
+.btnalltour {
+    font:600 14px Open Sans Semibold;  
+    color: #fff;  
+    width: 290px;
+    height: 46px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+     padding-left: 40px;
+    padding-right: 10px;
+    border: none;
+    background:#009349 url("../img/icon/viewtour.png") no-repeat 8px 10px;
+    border-radius: 4px;
+}    
+.btnalltour:hover{
+    color: #fff !important;
+    background:#008522 url("../img/icon/viewtour.png") no-repeat 8px 10px;
+}
+.btnrequest {
+    font:600 14px Open Sans Semibold;  
+    color: #fff; 
+    padding-top: 8px; 
+    padding-bottom: 8px;   
+    width: 240px; 
+    padding-left:36px;
+    padding-right: 10px;
+    margin-top:0px;
+    border: none;
+    border-radius:20px;
+    background:#009349 url("../img/icon/requestprice.png") no-repeat 8px 10px;
+}
+.btnrequest:hover {  
+    color: #ffffff !important;
+    background:#008522 url("../img/icon/requestprice.png") no-repeat 8px 10px;
+}
+a{
+    font-family: Open Sans !important;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    color: #2a2a2a;
+}
+a:hover {
+    color:#009349 !important;
+    text-decoration: none;   
+}
+a.fixhover{
+    color:#009349 !important;
+}
+.slcfillter {
+    height: 40px;   
+    width:210px;
+    border-radius:4px;
+    border:1px solid #d4d4d4;
+    padding-left:20px;
+    line-height: 30px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url("../img/dropdown.png") 96% / 7% no-repeat transparent;
+    font:400 14px Open Sans Regular;
+    color: #4a4a4a;
+}
+.btnfilter {
+    font-family:Open Sans;
+    font-weight:bold;
+    font-size: 16px;   
+    background: #833921;
+    border:none;    
+    color: #fff;
+    width: 110px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 28px;
+}
+.btnfilter:hover {    
+    color: #fff;
+    background: #a8401e;
+}
+.sendcontact {
+    font-family:Open Sans;
+    font-weight:bold;
+    font-size: 14px; 
+    color:#fff;
+    width: 104px;
+    padding-bottom: 2px;
+    background: #009349;
+    border:none;   
+    border-radius: 28px;
+}
+.sendcontact:hover {  
+    color:#fff;
+    background: #a8401e;
+}
+.sendcontact .uk-icon-angle-double-right{
+    padding-left:2px;
+}
+.aligncenter,.align-center{
+    text-align: center;
+}
+div.boxheadreview .listitem {  
+    padding-bottom:50px;      
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    background: #fff;  
+}
+div.captchacode{
+    margin: 10px;
+    margin-left: 0px;
+    text-align: center;
+    display: inline-block;
+}
+div.captchacode .col-lg{
+    width: 80px !important;
+   float: left;
+    margin-top: -14px;
+    margin-right: 20px;
+}
+/*pagination*/
+#pager-container{
+    display: inline-block;    
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    border-radius: 4px;
+    height: 30px;
+    border: 1px solid #e5e5e5;
+}
+#pager-container a {   
+    padding-left: 8px;
+    padding-right: 8px;   
+    padding-top:4px;
+    padding-bottom: 5px;
+    color: #4a4a4a; 
+    height: 30px;
+    line-height: 30px;
+    font-family:Open Sans Regular;
+    font-size: 14px;
+    font-weight: 400;
+}
+#pager-container .active a {
+    background: #9c614d;
+    color: #fff;
+    font-family:Open Sans Regular;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #9c614d;
+}
+#pager-container li {    
+    list-style: none;   
+    float: left;
+    font-family:Open Sans Regular;
+    font-size: 14px;
+    font-weight: 400;
+    height: 30px;
+}
+#pager-container .first span,#pager-container .prev span,#pager-container .next span,#pager-container .last span {
+    padding-left: 8px;
+    padding-right: 8px;   
+}
+/*whatsapp*/
+#whatsapp{
+    position: fixed;
+    font-weight: bold;   
+    top:80%;
+    right: 0%;   
+    padding-left: 6px !important;
+    padding-right: 6px !important;     
+    transition:all 0.4s ease-in-out 0s;
+    z-index: 999;
+    color:#009933;    
+    background:transparent;
+}
+/*offcanvas*/
+.uk-navbar-toggle {
+  font-size: 34px;
+  color: #009349;
+  text-decoration: none;
+}
+.uk-navbar-toggle:hover,.uk-navbar-toggle:focus {
+  color: #2a2a2a;
+  text-decoration: none;
+  outline: none;
+}
+.uk-navbar-toggle:after {
+  content: "\f0c9";
+  font-family: FontAwesome;
+  vertical-align: middle;
+}
+.uk-offcanvas-bar-flip{
+     background-color: #f2f2f2;
+}
+a.itemparent{
+  font:400 14px Open Sans;
+  color: #2a2a2a;
+  text-transform: uppercase;
+}
+#offcanvas .uk-offcanvas-bar-flip .uk-nav li{    
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e5e5e5;
+}
+#offcanvas .uk-offcanvas-bar-flip .uk-nav-sub li:last-child {
+    border-bottom: none;
+}
+#offcanvas .uk-offcanvas-bar-flip .uk-nav .uk-open > a{
+     color: #009349;
+}
+#offcanvas .uk-icon-close {   
+    color: red;  
+}
+div.boxourteam .txthome , div.boxwhyus .txthome,div.boxtraveller .txthome,div.boxrecentblog .txthome,div.boxhightlight .txthome{
+   font-size: 14px;
+   color:#2a2a2a;  
+   font-family:Open Sans;  
+   font-weight: 400;
+   padding-bottom:24px;
+}
+div.maincontent{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*slideshowbg*/
+div.slideshowbg{  
+     margin-bottom: 0px;
+     padding-bottom: 0px;    
+}
+div.slideshowbg .uk-container-center{
+     height: 100%;
+     vertical-align: bottom;
+}
+div.slideshowbg .uk-vertical-align-bottom {
+     width: 100%;    
+}
+div.slideshowbg div.travelplan {   
+    text-align: right;
+    width: 100%;
+    padding-right: 10px;
+    padding-bottom: 50px;
+}
+div.slideshowbg .uk-vertical-align-middle{   
+    margin-left: 0px;
+    padding-left: 0px;
+}
+div.slideshowbg div.travelplan h3{
+    font-size: 26px;
+    color:#fff;
+    font-family: Open Sans;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;  
+}
+div.slideshowbg div.travelplan p{
+    font-family: Open Sans;
+    color:#fff;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+div.slideshowbg div.travelplan a.btntravelplan {   
+    border-radius:6px;     
+    color: white;   
+    font-size: 16px;
+    font-weight: bold;
+    height: 46px;
+    padding-top: 10px;    
+    padding-bottom: 10px;
+    width: 310px;    
+    padding-right: 20px;
+    padding-left: 40px;
+    margin-top: 12px;
+    border: none;
+    background:#009349 url("../img/icon/location.png") no-repeat 10px 8px;  /*934448*/
+}
+div.slideshowbg div.travelplan .btntravelplan:hover{
+    color: #fff !important;
+    background:#008522 url("../img/icon/location.png") no-repeat 10px 8px;  
+}
+div.slideshowbg div.travelplan .boxbuttom {
+    text-align: center;
+    margin-top: 30px;
+    white-space: nowrap;
+    margin-left: 0px;
+    padding-left: 0px; 
+}
+div.slideshowbg div.travelplan1 h3{  
+    color:#fff;
+    text-align: center;
+}
+div.slideshowbg div.travelplan2 h3{    
+    color:#fff; 
+}
+div.slideshowbg div.boxitem{    
+   width: 100% !important;
+   padding-left: 0px !important;
+}
+/*slidesub bg*/
+div.slidesubbg{    
+     margin-top:0px;
+     height: 400px;
+     background: url("../img/silde/sub/viajes-vietnam-clasico.jpg") no-repeat center top; 
+}
+div.slidesubbg_contact{ 
+     height: 400px;
+     background: url("../img/silde/sub/agencia-de-viajes-en-vietnam-loto-contacto.jpg") no-repeat center top;    
+}
+div.slidesubbg_aboutus{    
+     height: 400px;
+     background: url("../img/silde/sub/viajes-al-norte-de-vietnam.jpg") no-repeat center top;
+}
+div.slidesubbg_review{    
+     height: 400px;
+     background: url("../img/silde/sub/agencia-de-viajes-en-vietnam.jpg") no-repeat center top;    
+}
+div.slidesubbg_blog{    
+     height: 400px;
+    /* background: url("../img/silde/sub/agence-de-voyage-au-vietnam-blog-authentik-vietnam.jpg") no-repeat center top;*/    
+}
+div.slidesubbg_guidevoyage{    
+     height: 400px;
+     background: url("../img/silde/sub/agencia-de-viajes-en-vietnam-antes-de-salir.jpg") no-repeat center top;    
+}
+div.slidesubbg_cate14{    
+     height: 400px;
+     background: url("../img/silde/sub/viajes-vietnam-clasico.jpg") no-repeat center top;    
+}
+div.slidesubbg_cate15{    
+     height: 400px;
+     background: url("../img/silde/sub/viajes-vietnam-autentico.jpg") no-repeat center top;    
+}
+div.slidesubbg_cate16{    
+     height: 400px;
+     background: url("../img/silde/sub/viajes-al-norte-de-vietnam.jpg") no-repeat center top;    
+}
+div.slidesubbg_cate17{    
+     height: 400px;
+     background: url("../img/silde/sub/viajes-laos.jpg") no-repeat center top;    
+}
+div.slidesubbg_cate18{    
+     height: 400px;
+     background: url("../img/silde/sub/viajes-camboya.jpg") no-repeat center top;    
+}
+div.slidesubbg_cate19{    
+     height: 400px;
+     background: url("../img/silde/sub/viajes-myanmar.jpg") no-repeat center top;    
+}
+div.slidesubbg_cate20{    
+     height: 400px;
+     background: url("../img/silde/sub/viajes-multi-paises.jpg") no-repeat center top;    
+}
+div.slidesubbg_cate9{    
+     height: 400px;
+     background: url("../img/silde/sub/viajes-laos.jpg") no-repeat center top;    
+}
+div.slidesubbg_cate10{    
+     height: 400px;
+     background: url("../img/silde/sub/viajes-camboya.jpg") no-repeat center top;    
+}
+/*Head*/
+#header {
+    height: 92px;
+    background:url("../img/bghead.png") repeat-x;
+    padding-top:4px; 
+}
+div.boxgioithieu{  
+    padding-left: 12px;
+    padding-right: 12px;
+}
+div.boxgioithieu .border-img-4{
+     border-radius: 2px;
+}
+div.boxgioithieu .uk-icon-quote-left {       
+    color: #CCC;
+}
+/*box why choose us*/
+div.boxwhyus{   
+    padding-top:50px;
+}
+div.boxwhyus div.uk-grid div.uk-width-1-5 div.uk-align-center{
+    margin-left: 0px;   
+    text-align: center;
+}
+div.boxwhyus div.uk-grid div.uk-width-1-5 > div {
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 185px;  
+}
+div.boxwhyus .uk-slideshow{
+    padding:0px;
+    margin: 0px;
+}
+div.boxwhyus .uk-slideshow li{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+div.boxwhyus .uk-slideshow .boxitem{
+    width: 228px;
+}
+div.boxwhyus .circleus-1{
+    display: block;
+    height: 170px;
+    width: 170px; 
+    background: #fff;
+    border: 8px solid #78bdc7;
+    border-radius:50%;
+    cursor: pointer;
+    background: url("../img/icon/persone.png") no-repeat center;  
+}
+div.boxwhyus .circleus-1:hover{  
+    border: 8px solid #78bdc7;
+    border-radius:50%;
+    cursor: pointer;
+    background:#78bdc7 url("../img/icon/hover-persone.png") no-repeat center;  
+}
+div.boxwhyus .circleus-2{
+    display: block;
+    height: 170px;
+    width: 170px; 
+    background: #fff;
+    border: 8px solid #60a0d9;
+    border-radius:50%;  
+    cursor: pointer;
+    background: url("../img/icon/check.png") no-repeat center;  
+}
+div.boxwhyus .circleus-2:hover{
+    display: block;  
+    border: 8px solid #60a0d9;
+    border-radius:50%;
+    background: #60a0d9 url("../img/icon/hover-check.png") no-repeat center; 
+}
+div.boxwhyus .circleus-3{
+    height: 170px;
+    width: 170px; 
+    background: #fff;
+    border: 8px solid #de757b;
+    border-radius:50%;
+    cursor: pointer;    
+    background: url("../img/icon/like.png") no-repeat center;   
+}
+div.boxwhyus .circleus-3:hover{   
+    border: 8px solid #de757b;
+    border-radius:50%;
+    background:#de757b url("../img/icon/hover-like.png") no-repeat center; 
+}
+div.boxwhyus .circleus-4{
+    height: 170px;
+    width: 170px; 
+    background: #fff;
+    border: 8px solid #78daaa;
+    border-radius:50%;
+    cursor: pointer;   
+    background: url("../img/icon/usd.png") no-repeat center;  
+}
+div.boxwhyus .circleus-4:hover{
+    display: block;
+    height: 170px;
+    width: 170px;   
+    border: 8px solid #78daaa;
+    border-radius:50%;
+    background:#78daaa url("../img/icon/hover-usd.png") no-repeat center; 
+}
+div.boxwhyus .circleus-5{
+    display: block;
+    height: 170px;
+    width: 170px; 
+    border-radius:50%;
+    border: 8px solid #daab78;    
+    background: #fff url("../img/icon/shake.png") no-repeat center;
+    cursor: pointer;    
+}
+div.boxwhyus .circleus-5:hover{
+    height: 170px;
+    width: 170px;    
+    border: 8px solid #daab78;
+    border-radius:50%;
+    background:#daab78 url("../img/icon/hover-shake.png") no-repeat center; 
+}
+div.boxwhyus .boxitem .introtxt{
+    font:300 16px Open Sans Light !important;
+    color: #2a2a2a;
+}
+div.boxwhyus h1,div.boxtraveller h1,div.boxhightlight h1,div.boxourteam h1,div.boxrecentblog h1,div.boxhightlight h1{
+    font-family: Open Sans Light;
+    font-size: 27px;    
+    font-weight: 300;
+    color: #2a2a2a;   
+}
+div.boxtraveller h1 a{
+    font-family: Open Sans Light;
+    font-size: 27px;    
+    font-weight: 300;
+    color: #2a2a2a;   
+}
+div.boxwhyus .uk-grid{
+    padding-top:0px;
+}
+div.boxwhyus .uk-grid .uk-width-1-5 p.uk-text-center{
+    font:400 14px Open; 
+    color: #2a2a2a;
+    line-height: 18px;
+}
+div.boxwhyus .boxitem .uk-text-center {
+    font:600 16px Open Semibold; 
+    color: #2a2a2a;
+}
+div.boxwhyus  a.slidenavgray{
+    color: #bcbcbc;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: -154px;
+    margin-left: -10px;
+    margin-right: -10px;
+    display: block;
+}
+div.boxwhyus h1{   
+    font-family:Open Sans Light;  
+    font-weight: 300;
+    color: #2a2a2a;
+    font-size: 27px;
+}
+div.boxwhyus h1 a{   
+    font-family:Open Sans Light;  
+    font-weight: 300;
+    color: #2a2a2a;
+    font-size: 27px;
+}
+div.boxwhyus .introtxt{       
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*boxhowtobook*/
+div.boxhowtobook  a.slidenavgray{
+    color: #bcbcbc;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: -80px;
+    margin-left: -10px;
+    margin-right: -10px;
+    display: block;
+}
+div.boxhowtobook h1{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    line-height: 30px;
+}
+/*boxtraveller*/
+div.boxtraveller,div.boxourteam{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: #e9ebee;
+}
+div.boxtraveller .txthome{
+   padding-left: 15px;
+   padding-right: 15px;
+}
+div.boxhightlight .slidenavbottom,div.boxtraveller .slidenavbottom,div.boxourteam .slidenavbottom,div.servicework .slidenavbottom{
+    display:inline-block !important;
+    text-align: center !important;
+    padding: 0px;
+    margin: 0px;
+    height: 30px;
+    width: 120px;
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+    white-space: nowrap !important;
+}
+div.boxhightlight .slidenavbottom .uk-slidenav,div.boxtraveller .slidenavbottom .uk-slidenav,div.boxourteam .slidenavbottom .uk-slidenav ,div.servicework .uk-slidenav{
+    margin-top: 0px !important;   
+    width: 30px;
+    height: 30px;
+    content:"";
+    font-size: 0px;
+    background:none;    
+}
+div.boxhightlight .uk-slidenav-previous,div.boxtraveller .uk-slidenav-previous,div.boxourteam .uk-slidenav-previous,div.servicework .uk-slidenav-previous{
+     display: block;
+     width: 30px;
+     height: 30px;
+     background:url("../img/icon/navleft.png") no-repeat !important; 
+}
+div.boxhightlight .uk-slidenav-next,div.boxtraveller .uk-slidenav-next,div.boxourteam .uk-slidenav-next,div.servicework .uk-slidenav-next{
+     display: block;
+     width: 30px;
+     height: 30px;
+     background:url("../img/icon/navright.png") no-repeat !important; 
+}
+div.boxtraveller .boxavatar{
+    margin-bottom: 0px !important;
+}
+div.boxtraveller .boxitem {   
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 2px;
+}
+div.boxtraveller .boxitem .boxreviewitem {
+    background: white;
+    padding: 20px;  
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-top: 2px;
+}
+div.boxtraveller .uk-border-circle{
+    width: 170px;
+    height: 170px;
+    border:10px solid #e9ebee;
+    text-align: center;
+}
+div.boxtraveller .infouser {
+    margin-bottom: 0px;
+    background: white !important;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    text-align: center;
+    padding-top: 100px;
+    margin-top: -80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+div.boxtraveller .infouser a {
+    font:bold 16px Open Sans Semibold;
+    color: #2a2a2a;
+}
+div.boxtraveller .infouser span{
+    font:600 14px Open Sans Semibold;
+    color: #4a4a4a;
+    font-style: italic;
+}
+div.boxtraveller .boxitem .title{
+    font:600 16px Open Sans Semibold;
+    color: #2a2a2a;
+    line-height: 18px;
+}
+/*boxhightlight*/
+div.boxhightlight .boxhome{
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 50px;
+   padding-bottom: 30px;
+}
+div.boxhightlight h1{
+   padding-left: 15px;
+   padding-right: 15px;
+}
+div.boxhightlight .boxitem img{
+    width: 100%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+div.boxhightlight .boxitem img.mobifuture5{
+   
+}
+div.boxhightlight .listitem ul{
+    padding: 0px;
+    margin: 0px;
+}
+div.boxhightlight .listitem ul li {
+    list-style: none;
+}
+div.boxhightlight h2.caption-title{
+   padding-left:20px;
+   padding-right:20px;
+   padding-top: 15px;
+   padding-bottom: 10px;
+   margin-bottom: 0px;
+   font:600 14px Open Sans Semibold !important;
+   color: #2a2a2a;
+}
+div.boxhightlight h2.caption-title .boxcaption {
+     display: block;
+     width: 100%;
+     color: #2a2a2a;
+     font-family:Open Sans Semibold !important;    
+}
+div.boxhightlight .shorttxt {
+     font:400 14px Open Sans Regular;
+     color: #4f4f4f;       
+     padding: 10px;
+     margin-top: 0px;
+     padding-top: 0px;   
+}
+div.boxhightlight .content{
+    margin-top: -30px;
+    padding-top: 30px;
+    border-left: 1px solid #e9ebee;
+    border-right: 1px solid #e9ebee;
+    border-bottom: 1px solid #e9ebee;
+    margin-bottom: 20px;
+}
+div.boxhightlight h2.caption-title a{
+     display: block;
+     padding-top:4px;
+     font:600 14px Open Sans Semibold !important;
+     color: #2a2a2a; 
+}
+div.boxhightlight .boxday{   
+    height: 68px;
+    width: 68px;
+    border: 8px solid #fff;
+    background:#e9ebee;
+    border-radius:50%;
+    margin-bottom: -38px;
+    z-index: 1;
+    position: relative;
+}
+div.boxhightlight .boxday .numdays{
+    font-size: 30px;
+    font-weight:800;
+    color: #2a2a2a;
+    display: block;
+    font-family:Open Sans ExtraBold !important;   
+    padding-top:16px;
+    text-align: center !important;
+    height: 20px;
+    width: 68px;
+    padding-bottom: 0px;
+}
+div.boxhightlight .boxday .txtday {
+    font-size: 13px;
+    color: #4f4f4f;
+    font-weight: 400;
+    display: block;
+    width: 68px;
+    text-align: center !important;
+    margin-top: 0px;
+    font-family:Open Sans;    
+}
+div.boxhightlight .readmore {
+    margin-top: -10px;
+}
+div.boxhightlight .listitem .btnreadmore{
+    margin-top: -28px;
+    text-align: center;
+    border-radius:28px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*boxourteam*/
+div.boxourteam{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+div.boxourteam .titlejob{
+    padding-bottom: 10px;
+    font:400 16px Open Sans Regular;
+    color: #757474;
+}
+div.boxourteam .contenthome{
+    font:400 14px Open Sans;
+    color: #2a2a2a;
+}
+div.boxourteam .uk-text-center a{
+    font:bold 18px Open Sans;
+    color: #2a2a2a;
+}
+div.boxourteam .boximg img{
+    width: 222px;
+    height: 222px;
+    border:10px solid #e9ebee;
+}
+div.boxourteam .contenttxt{
+    margin-top: -110px;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    background: #fff !important;
+    border-radius: 4px;
+}
+div.boxourteam .contenthome{
+    padding: 10px;
+    border-top:1px solid #e9ebee;
+}
+/*detail team*/
+div.detailourteam  .boximg img {
+    width: 222px;
+    height: 222px;
+}
+div.detailourteam .uk-container-center{
+    padding-left: 15px;
+    padding-right: 15px;   
+}
+div.detailourteam  .boxcontent {
+    border: 1px solid #e5e5e5;
+    margin-top: -120px;
+    padding-top: 120px;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+div.detailourteam  .boxcontent .title h1 {
+    font:bold 18px Open Sans Bold;
+    color: #2a2a2a;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+div.detailourteam  .boxcontent .title span {
+    font-family: Open Sans Regular;
+    font-size: 16px; 
+    color: #757474;
+    font-weight:300;
+    display: block;
+    padding-bottom: 14px;
+}
+div.detailourteam .boxcontent em{
+    color: #4a4a4a;    
+    font-style: italic; 
+}
+/*boxrecentblog*/
+div.boxrecentblog{
+    padding-top: 50px;   
+    background: #e9ebee; 
+}
+div.boxrecentblog h1{
+    font-family: Open Sans Light;
+    font-size: 27px; 
+    color: #2a2a2a;
+    font-weight: 300;
+}
+div.boxrecentblog .txthome {
+    border-bottom: 1px solid #e9ebee;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+div.boxrecentblog .uk-grid{
+    padding: 0px;  
+    padding-left: 0px;
+    padding-right:5px;
+}  
+div.boxrecentblog .uk-grid .uk-width-1-2{
+    padding-left: 10px;
+    padding-right:5px;  
+}
+div.boxrecentblog .boxcontent{
+    margin-left:0px;
+}
+div.boxrecentblog .uk-width-1-2 p{
+    line-height:18px;
+    word-spacing: normal;
+    border-bottom: 1px solid #e9ebee;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+div.boxrecentblog .boxcontent .title a{      
+      font:400 14px Open Sans Regular;
+      color: #2a2a2a;
+}
+div.boxrecentblog .boxcontent img{      
+       border-radius:4px;
+}
+/*index Blog*/
+div.boxblog .listitem {
+    padding: 0px;
+    margin: 0px;
+}
+div.boxblog .listitem .item{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom:30px; 
+    border-radius: 4px;
+}
+div.boxblog .listitem .item img{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    width: 100%;
+}
+div.boxblog .listitem .item .dateblog{
+    height: 68px;
+    width: 68px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    background: #009349;
+    position:relative;  
+    text-align: center;
+}
+div.boxblog .listitem .item .dateblog label{
+    display: block;
+    font:600 20px Open Sans Semibold;
+    color: #fff;
+    padding-top: 14px;
+    line-height: 18px;  
+}
+div.boxblog .listitem .item .dateblog span{
+    font:400 14px Open Sans;
+    color: #fff;
+}
+div.boxblog .listitem .item .boximg{
+    padding-bottom: 0px;
+    margin-top: -36px;
+}
+div.boxblog .listitem .item .content {
+    border: 1px solid #e5e5e5;
+    border-top: 0px;
+    padding: 15px 0px 15px 0px;
+    font:400 14px Open Sans Regular;
+    color: #6a6a6a;
+}
+div.boxblog .listitem .item .introtxt{
+    padding-left: 10px;
+    padding-right: 10px;    
+}
+div.boxblog .listitem .item .title{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;  
+}
+div.boxblog .listitem .item .title a{
+    font:600 15px Open Sans Bold;
+    color: #2a2a2a;
+    text-align: center;
+}
+div.boxblog .listitem .item .bypost{
+     font:400 13px Open Sans Regular;
+     color: #6a6a6a;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     text-align: center;
+     border-top: 1px solid #e5e5e5;
+     border-bottom:1px solid #e5e5e5;
+}
+/*View Blog*/
+div.viewboxblog div.blogcontent h1.titleblog{
+     font-family:Open Sans Light;
+     font-size: 20px;
+     font-weight:300;
+     color: #2a2a2a;
+     padding: 10px;     
+     line-height: 24px;
+}
+div.viewboxblog div.blogcontent .bypost{
+     font:400 13px Open Sans Regular;
+     color: #6a6a6a;
+     padding:10px;
+     border-top: 1px solid #e5e5e5;
+     border-bottom:1px solid #e5e5e5;
+}
+div.viewboxblog div.blogcontent .bypost a{
+     font:400 13px Open Sans Regular;    
+     color: #2e74b2;
+}
+div.viewboxblog div.blogcontent .content {
+    padding:10px;
+}
+div.viewboxblog div.blogcontent .content a {
+    color: #009349 !important;
+}
+div.viewboxblog div.blogcontent .content a strong{
+    color:#009349 !important;
+}
+div.viewboxblog div.blogcontent .content a em{
+    color:#009349 !important;
+}
+div.viewboxblog div.blogcontent .content a em strong{
+    color:#009349 !important;
+}
+div.viewboxblog div.blogcontent .content strong a {
+    color: #009349;
+    font-weight: bold;
+}
+div.viewboxblog div.blogcontent .content em {
+    color: #4a4a4a;
+}
+div.viewboxblog div.blogcontent .content img {
+   width: 100%;
+}
+/*boxheadreview*/
+div.boxheadreview {
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+div.boxheadreview h1{
+    font-family: Open Sans Semibold;
+    font-size: 16px;
+    font-weight: 600;
+    color: #2a2a2a;
+    background: #f0f0f0;
+    text-transform: uppercase;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+div.boxheadreview .introtxt {
+    padding: 4px 15px 15px 15px;
+}
+div.boxheadreview .reviewcount span {
+     font-family: Open Sans Regular;
+     font-weight: 400;
+     color: #884323;
+     font-size: 18px;
+     line-height: 40px;
+     height: 40px;
+     padding-left:6px;
+}
+div.listreview{
+    padding: 30px 15px 30px 15px;
+    background:#e9ebee;
+}
+div.listitem .item .title{   
+    font:300 14px Open Sans Regular;     
+    color: #2a2a2a;
+}
+div.listitem .item .title a{   
+    font:300 14px Open Sans Regular;     
+    color: #009349;
+}
+div.listitem .item{
+    padding: 15px;
+    background: #fff;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+div.listitem .item .boxcomment {
+    padding-top: 20px;
+}
+div.listitem .item .boxcomment .title-comment{
+    font:600 14px Open Sans Semibold;     
+    color: #2a2a2a;
+}
+div.listitem .item .message {
+    margin-top: 14px;
+}
+div.listitem .item .message a {
+    font-family:Open Sans; 
+    font-size: 13px;
+    font-weight: 400;
+    color: #949494;
+    border: 1px solid #dcdcdc;
+    border-radius:6px;
+    padding:4px 14px 4px 14px;
+}
+div.message:hover{
+     color: #009349;   
+}
+/*list ourteam*/
+div.listourteam{
+    padding: 15px;
+}
+div.listourteam .boxitem h1{
+    font-family: Open Sans Semibold;
+    font-size: 18px; 
+    font-weight: 600;
+    color: #2a2a2a;
+}
+div.listourteam .boxitem .boximg img {
+    height: 204px;
+    width: 204px;
+    border: 8px solid #fff;
+}
+div.listourteam .boxitem .boxitemteam {
+    padding-top: 30px;
+}
+div.listourteam .boxitem .boxitemteam .content{
+     margin-top: -90px;
+     padding-top: 90px;
+     background: #e9ebee;
+     border-radius:4px; 
+}
+div.listourteam .boxitem .boxitemteam .content .titlejob{
+    padding-bottom: 10px;
+}
+div.listourteam .boxitem .boxitemteam .content .introtxt{
+    padding: 20px;
+    border-top: 1px solid #fff;
+}
+/*boxtour*/
+div.boxtour .infocate {
+    padding: 15px;
+}
+div.boxtour .infocate h2{
+    font:600 18px Open Sans Semibold;
+    color: #2a2a2a;
+    text-align: center;
+    text-transform: uppercase;
+}
+div.boxtour .listitem .item{   
+    margin: 15px;
+    padding: 0px;
+    margin-bottom: 30px;
+}
+div.boxtour .listitem .item .contentbox {
+    background: #e9ebee;
+}
+div.boxtour .listitem .item .boxday{   
+    height: 68px;
+    width: 68px;
+    border: 8px solid #fff;
+    background:#e9ebee;
+    border-radius:50%;
+    margin-bottom: -40px;
+    z-index: 1;
+    position: relative;
+}
+div.boxtour .listitem .item .boxday .numdays{
+    font-size: 30px;
+    font-weight:800;
+    color: #2a2a2a;
+    display: block;
+    font-family:Open Sans ExtraBold !important;   
+    padding-top:16px;
+    text-align: center !important;
+    height: 20px;
+    width: 68px;
+    padding-bottom: 0px;
+}
+div.boxtour .listitem .item .boxday .txtday {
+    font-size: 13px;
+    color: #4f4f4f;
+    font-weight: 400;
+    display: block;
+    width: 68px;
+    text-align: center !important;
+    margin-top: 0px;
+    font-family:Open Sans;    
+}
+div.boxtour .listitem .item img{
+    width: 100%;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+}
+div.boxtour .listitem .item .readmore{
+    margin-top: -28px;
+    text-align: center;
+}
+div.boxtour .listitem .item .btnreadmore {
+     border-radius:28px; 
+     padding-left: 20px;
+     padding-right: 20px;
+}
+div.boxtour .listitem .item .title a {
+    font:600 15px Open Sans Semibold;
+    color: #2a2a2a;
+}
+div.boxtour .listitem .item .shorttxt {   
+    color: #4a4a4a;
+}
+div.boxtour .listitem .item .boxinfo{
+    text-align: center;
+    padding: 10px;
+}
+div.boxtour .boxfilter{
+    background: #e9ebee;
+    padding: 15px;
+    margin-bottom:50px;
+    padding-top: 30px;
+}
+div.boxtour .boxfilter h2{
+    font:600 15px Open Sans Semibold;
+    color: #2a2a2a;
+    text-align: center;
+    text-transform: uppercase;
+}
+div.boxtour .boxfilter .item{
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 10px;
+    height: 40px;
+    text-align: center;
+}
+/*Detail tour*/
+div.detailtour {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+div.detailtour .breadcrumb{
+    padding-left: 15px;
+}
+div.detailtour .discover {
+    background: #e9ebee;
+    padding: 15px;
+}
+div.detailtour .discover ul {
+    padding: 0px;
+    padding-left: 15px;
+}
+div.detailtour h1.titletour{
+    font:600 18px Open Sans Semibold;
+    color: #2a2a2a;
+    text-align: center;
+    text-transform: uppercase;
+}
+div.detailtour .discover h2,div.detailtour .summarybox h2{
+    font:600 18px Open Sans Semibold;
+    color: #2a2a2a;
+    text-align: center;
+}
+div.detailtour .summarybox {   
+    padding: 15px;   
+}
+div.detailtour .summarybox .requestprize{
+    text-align: center;
+    padding-bottom: 20px;padding-top: 10px;
+}
+div.detailtour .boxothertour {
+    padding: 15px;
+}
+div.detailtour .boxothertour .title {
+    padding-top: 20px;
+    text-align: center;
+}
+div.detailtour .boxothertour .title a {
+    font:600 18px Open Sans Semibold;
+    color: #2a2a2a;
+    text-align: center;
+}
+div.detailtour .boxothertour .readmore {
+    text-align: center;
+}
+div.detailtour .boxothertour h6 {
+    font:600 18px Open Sans Semibold;
+    color: #2a2a2a;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+div.detailtour .boxothertour .item {
+    padding-top: 20px;
+}
+div.detailtour .boxothertour .days {
+    text-align: center;
+    font-style: italic;
+    color: #4a4a4a;
+}
+div.detailtour .boxothertour .shorttxt{
+    text-align: center;
+    color: #4a4a4a;
+}
+div.detailtour .boxbottom{
+    font-family: Open Sans;
+    font-size: 14px; 
+    font-weight: 400;
+    color: #2a2a2a;
+    text-align: center;
+    padding: 15px;
+    background: #e9ebee;
+}
+div.detailtour .boxbottom .title{
+    font-family: Open Sans Semibold;
+    font-size: 18px; 
+    font-weight: 600;
+    color: #2a2a2a;
+    text-align: center;
+    padding-bottom: 20px;
+}
+div.detailtour .boxserviceinclude {
+    background: #e9ebee;
+    margin: 0px;
+    padding: 15px;   
+}
+div.boxserviceinclude .serviceinclude ,div.boxserviceinclude .notserviceinclude{
+    background: #fff;
+}
+div.boxserviceinclude .serviceinclude h5{    
+    font-family:Open Sans Semibold;
+    font-weight: 600;
+    font-size: 16px;
+    height: 50px;
+    padding-top:14px;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+    text-align: center !important;
+    text-transform: uppercase;
+    background: #eff4f9;
+    border: 1px solid #d3e0ee;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+div.boxserviceinclude .serviceinclude .content {
+     border: 1px solid #d3e0ee;
+     border-bottom-left-radius: 4px;
+     border-bottom-right-radius: 4px;
+     margin-top: 0px;
+     padding-top: 0px;
+     border-top: none;
+     padding: 20px;
+     margin-bottom: 30px;    
+     line-height: 24px;
+     color: #2a2a2a;
+}
+div.boxserviceinclude .serviceinclude .content ul {
+    padding: 0px;
+    margin: 0px;
+}
+div.boxserviceinclude .serviceinclude .content ul li{
+     font-family:Open Sans Regular;
+     font-weight: 400;
+     font-size: 14px; 
+     color: #2a2a2a;
+     padding-left: 16px;
+     background:url("../img/icon/icon-circle.png") no-repeat 0px 10px;
+     list-style: none;
+}
+div.boxserviceinclude .serviceinclude .content em {
+     font-family:Open Sans Regular;
+     font-weight: 400;
+     font-size: 14px;    
+     color: #2a2a2a;
+}
+div.boxserviceinclude .notserviceinclude h5{    
+    font-family:Open Sans Semibold;
+    font-weight: 600;
+    font-size: 16px;
+    height: 50px;
+    padding-top: 14px;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+    text-align: center !important;
+    text-transform: uppercase;
+    background: #f9ebec;
+    border: 1px solid #f4ced0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+div.boxserviceinclude .notserviceinclude .content {
+     font-family:Open Sans Regular;
+     font-weight: 400;
+     font-size: 14px;
+     color: #2a2a2a;
+     border: 1px solid #f4ced0;
+     border-bottom-left-radius: 4px;
+     border-bottom-right-radius: 4px;
+     margin-top: 0px;
+     padding-top: 0px;
+     border-top: none;
+     padding: 20px;
+     margin-bottom: 30px;    
+     line-height: 24px;
+}
+div.boxserviceinclude .notserviceinclude .content p{
+     font-family:Open Sans Regular;
+     font-weight: 400;
+     font-size: 14px;
+     color: #2a2a2a;
+}
+div.boxserviceinclude .notserviceinclude .content ul {
+    padding: 0px;
+    margin: 0px;
+}
+div.boxserviceinclude .notserviceinclude .content ul li{
+     font-family:Open Sans Regular;
+     font-weight: 400;
+     font-size: 14px;    
+     color: #2a2a2a;
+     padding-left: 16px;
+     background:url("../img/icon/icon-circle-1.png") no-repeat 0px 10px;
+     list-style: none;
+}
+div.boxserviceinclude .notserviceinclude .content em {
+     font-family:Open Sans Regular;
+     font-weight: 400;
+     font-size: 14px;    
+     color: #2a2a2a;
+}
+div.detailtour .dayitem {
+    background: #fff;
+    padding: 0px 15px 0px 15px;
+}
+div.detailtour .dayitem .boxnumberday{
+    height: 68px;
+    width: 68px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    background: #009349;
+    position:relative;
+}
+div.detailtour .dayitem .boxnumberday .numberday{
+    text-align: center !important;
+    padding-top: 8px;  
+    height: 68px;
+    width: 68px;
+    display: block;
+    font-family: Open Sans Semibold;
+    font-size: 18px; 
+    font-weight: 600;
+    color: #fff;
+}
+div.detailtour .dayitem .boxnumberday .numberday .num{
+    font-family: Open Sans Extrabold;
+    font-size: 31px; 
+    font-weight: bold;  
+    color: #fff;
+}
+div.detailtour .dayitem .boximg{
+    margin-top: -38px;
+}
+div.detailtour .dayitem .boxnoimg{
+    margin-top: -38px;
+    padding-top: 38px;
+    border-top: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+}
+div.detailtour .dayitem .boximg img{
+    margin-top:0px; 
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border: 1px solid #f1f1f1;
+    border-bottom: 0px;
+    padding: 4px;
+}
+div.detailprogram {
+    padding-top: 20px;
+}
+div.detailprogram h3{
+    font-family: Open Sans Semibold;
+    font-size: 18px; 
+    font-weight: 600;
+    color: #2a2a2a;
+}
+div.detailtour .dayitem .title{
+     border-left: 1px solid #eeeeee;
+     border-right: 1px solid #eeeeee;
+     padding: 10px;
+     font-family: Open Sans Semibold;
+    font-size: 18px; 
+    font-weight: 600;
+    color: #2a2a2a;
+}
+div.detailtour .dayitem .content{
+    padding: 10px;
+    padding-top: 0px;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 30px;
+}
+/*Contact*/
+div.boxcontactus{
+    font:400 14px Open Sans;
+    color: #2a2a2a;
+    padding-bottom:50px; 
+}
+div.boxcontactus h1 {
+    font:600 18px Open Sans Semibold;
+    color: #2a2a2a;
+    text-transform: uppercase;
+    text-align: center;    
+}
+div.boxcontactus .boxaddress {
+    text-align: center;  
+}
+div.boxcontactus .boxaddress h2,div.boxcontactus .boxoffice h2{
+    font:600 16px Open Sans Semibold;
+    color: #2a2a2a;
+    text-align: center;    
+}
+div.boxcontactus .infomation {
+    border-radius:4px;
+    background: #fff;
+    padding: 10px;
+    text-align:center;
+    margin: 0px;
+}
+div.boxcontactus .infomation h2 {
+    font:600 15px Open Sans Semibold;    
+    color: #2a2a2a;
+    text-transform: uppercase;
+    text-align:center;
+}
+div.boxcontactus .title {
+    font:600 14px Open Sans Semibold;
+    color: #2a2a2a;
+    padding-right: 6px;
+    display:inline-block;   
+}
+div.boxcontactus .titleoffice  {
+    display:inline-block;
+    width:164px;   
+}
+#contactform-verifycode {
+    width: 100px;
+    height: 30px;
+    margin-left: 14px;
+    float: left;
+}
+div.boxcontactus .boxoffice{
+    padding-top: 20px;
+}
+div.boxcontactus .introtxt {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+div.boxcontactus .infomation .help-block{
+    color: red;
+}
+div.boxcontactus .infomation .uk-form-row .uk-form-width-medium{
+    width: 350px;   
+}
+div.boxcontactus .infomation .muticontact{
+    width: 90px;
+    display: inline-block;
+    margin-top: 10px;
+}
+div.boxcustomize .muticontact{
+    width: 94px;
+    display: inline-block;
+}
+/*About us*/
+div.boxaboutus .aboutus{
+    padding: 15px;
+}
+div.boxaboutus .aboutus .title{
+     font:300 33px Open Sans Light;
+     color: #353535;
+     text-align: center;
+}
+div.boxaboutus .aboutus .introtxt{
+     font:400 16px Open Sans Regular;
+     color: #2a2a2a;
+     text-align: center;
+}
+div.boxaboutus .aboutus .content{
+     font:400 14px Open Sans Regular;
+     color: #2a2a2a;
+     padding-top: 20px;
+}
+div.aboutmobi a.slidenavgray{
+     margin-top: -150px !important;
+}
+div.boxaboutus .aboutus .aboutmobi{
+    padding: 15px;    
+}
+div.boxaboutus .aboutmobi .boxitem {
+    width: 258px !important;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+div.boxaboutus .aboutmobi .boxitem p{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+div.boxaboutus .aboutmobi h1.title {
+    font: 300 27px Open Sans Light;
+    color: #353535;
+}
+div.boxaboutus .aboutmobi .boxitem .title a,div.boxwhyus .boxitem .title a {
+    font: 600 15px Open Sans Semibold;
+    color: #353535; 
+}
+div.boxaboutus .aboutmobi .boxitem .introtxt {
+    font:400 14px Open Sans Regular;
+    color: #4a4a4a;
+}
+div.servicework .box-service{    
+    height: 180px;
+    background:url("../img/mapworld.png") no-repeat center top;   
+}
+div.servicework .box-service .title-service {    
+    font: 600 15px Open Sans Semibold;
+    color: #353535;
+    text-align: center;
+    padding-top:12px;
+    padding-left: 2px;
+    padding-right: 2px;
+    line-height: 24px;
+}
+div.servicework .box-service .txthome {
+    font: 400 14px Open Sans Regular;
+    color: #2a2a2a;
+    padding: 10px;
+}
+div.servicework .stepword {
+    background: #e9ebee;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+div.servicework .boxstep{
+    padding: 15px;
+}
+div.servicework .boxstep .title {
+    font: 600 16px Open Sans Semibold;     
+    color: #2a2a2a;
+    padding-top:10px;
+    padding-bottom:4px; 
+}
+div.servicework .boxstep .fulltxt{
+    font:400 14px Open Sans Regular;     
+    color: #4a4a4a;
+   /*height: 120px;*/
+}
+div.servicework .boxstep .boxicon .icon1{
+    height: 30px;
+    margin-top: 20px;
+    background:url("../img/icon/step1.png") no-repeat top center;   
+}
+div.servicework .boxstep .boxicon .icon2{
+    height: 30px;
+    margin-top: 20px;
+    background:url("../img/icon/step2.png") no-repeat top center;     
+}
+div.servicework .boxstep .boxicon .icon3{
+    height: 51px;
+    margin-top: 20px;
+    background:url("../img/icon/step3.png") no-repeat top center;   
+}
+div.servicework .boxstep .boxicon .icon4{
+    height: 24px;
+    margin-top: 20px;
+    background:url("../img/icon/step4.png") no-repeat top center;    
+}
+div.servicework .boxstep .boxicon .icon5{
+    height: 33px;
+    margin-top: 20px;
+    background:url("../img/icon/step5.png") no-repeat top center;  
+}
+div.servicework .boxstep .boxicon .icon6{
+    height:27px;
+    margin-top: 20px;
+    background:url("../img/icon/step6.png") no-repeat top center;   
+}
+div.servicework .boxstep .boxicon .icon7{
+    height: 26px;
+    margin-top: 20px;
+    background:url("../img/icon/step7.png") no-repeat top center;   
+}
+div.txtstep{
+    font-style:normal !important;
+    padding-left:4px;
+    text-transform: uppercase;
+    -webkit-transform: skew(-24deg);
+    -moz-transform: skew(-24deg);
+    -o-transform: skew(-24deg);
+    text-align: center;
+    padding-top: 10px;
+}
+div.servicework .boxstep .step1,div.servicework .boxstep .step4,div.servicework .boxstep .step7{
+     background: #2a2a2a;
+    -webkit-transform: skew(24deg);
+    -moz-transform: skew(24deg);
+    -o-transform: skew(24deg);
+    border-radius: 6px;
+    margin-top: 0px;
+    padding-top: 0px;
+    height: 40px;
+    width: 130px; 
+    font:bold 15px Open Sans;
+    color: #fff;
+}
+div.servicework .boxstep .step2,div.servicework .boxstep .step5{
+     background: #009349;    
+    -webkit-transform: skew(24deg);
+    -moz-transform: skew(24deg);
+    -o-transform: skew(24deg);
+    border-radius: 6px;
+    margin-top: 0px;
+    padding-top: 0px;
+    height: 40px;  
+    width: 130px; 
+    font:bold 15px Open Sans;
+    color: #fff;
+}
+div.servicework .boxstep .step3,div.servicework .boxstep .step6{
+    background: #884323;   
+    -webkit-transform: skew(24deg);
+    -moz-transform: skew(24deg);
+    -o-transform: skew(24deg);
+    border-radius: 6px;
+    margin-top: 0px;
+    padding-top: 0px;
+    height: 40px;   
+    width: 130px; 
+    font:bold 15px Open Sans;
+    color: #fff;
+}
+/*listrecrutement*/
+div.boxrecrutement{
+    width: 100%;
+    background: #fff;    
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 50px;
+}
+div.boxrecrutement .boxitem {
+    padding:5px;
+}
+div.boxrecrutement .boxitem .title{
+    font:600 16px Open Sans Semibold;
+    text-align: center;
+}
+div.boxrecrutement .boxitem .boximg{
+    padding-bottom: 20px;
+}
+div.listrecrutement .listitem {
+    margin: 0px;
+    padding: 0px;    
+    border: 1px solid #ebebeb;
+}
+div.listrecrutement .listitem h3{
+    font:600 16px Open Sans Semibold;
+    background: #f0f0f0;
+    text-align: center;
+    text-transform: uppercase;    
+    height: 40px;
+    padding-top: 8px;
+}
+div.listrecrutement .listitem .uk-accordion {
+    padding:0px 20px 20px 20px;
+    background: #fff;
+}
+div.listrecrutement .listitem .uk-accordion .uk-accordion-title{
+    background: none;
+    font:400 14px Open Sans Regular;
+    padding-bottom: 8px;
+    padding-left: 0px;  
+    margin-bottom: 0px;
+    border-bottom: 1px solid #eeeeee; 
+    background: url("../img/icon/icon-dow.png") no-repeat right center;
+}
+div.listrecrutement .listitem .uk-accordion .uk-accordion-title:hover{
+    color: #009349;
+}
+div.listrecrutement .listitem .uk-accordion > .uk-active{
+    background: url("../img/icon/icon-pull.png") no-repeat right center;
+}
+div.listrecrutement .listitem .uk-accordion .uk-accordion-content {
+    padding-left: 0px;
+    padding-top: 8px;
+}
+div.listrecrutement .listitem .uk-accordion .lastitem {
+    border: none;    
+}
+div.listrecrutement .listitem .uk-accordion .uk-icon-circle-fix {
+    background: #009349;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+/*Guide voyage*/
+div.boxguidevoyage{
+    width: 100%; 
+    margin: 0px;
+    padding: 10px;
+    padding-left:0px;
+    margin-right: 6px;    
+}
+div.boxguidevoyage .guidevoyageitem{
+    border-radius:6px;    
+    font:400 14px Open Sans Regular;
+    margin-bottom:30px;
+    margin-left: 0px;
+    padding-left: 0px;
+    border: 1px solid #f0f0f0;
+}
+div.boxguidevoyage .guidevoyageitem h1{
+    font:600 16px Open Sans Semibold;
+    color:#2a2a2a;
+    text-align: center;
+    background: #f0f0f0;
+    padding-top: 4px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 30px;
+}
+div.boxguidevoyage .uk-accordion{
+    padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #fff;
+}
+div.boxguidevoyage .guidevoyageitem .uk-accordion .uk-accordion-title{
+    background: none;
+    font-family: Open Sans Regular;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 8px;
+    padding-left: 0px;  
+    margin-bottom: 0px;
+    border-bottom: 1px solid #eeeeee; 
+    background: url("../img/icon/icon-dow.png") no-repeat right center;
+}
+div.boxguidevoyage .guidevoyageitem .uk-accordion .uk-accordion-title:hover{
+    color: #009349;
+}
+div.boxguidevoyage .guidevoyageitem .uk-accordion .uk-active .active{
+    color: #009349;
+}
+div.boxguidevoyage .guidevoyageitem .uk-accordion > .uk-active{
+    background: url("../img/icon/icon-pull.png") no-repeat right center;
+}
+div.boxguidevoyage .guidevoyageitem .uk-accordion .uk-accordion-content {
+    padding-left: 0px;
+    padding-top: 8px;
+    padding-right: 0px;
+}
+div.boxguidevoyage .guidevoyageitem .uk-accordion .lastitem {
+    border: none;    
+}
+div.boxguidevoyage .guidevoyageitem .uk-accordion .uk-icon-circle-fix {
+    background: #009349;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 6px;    
+}
+/*Question*/
+div.boxquestion{
+    border: 1px solid #ebebeb;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background: #f5f5f5;
+    margin-top: 50px;
+    text-align: center;
+}
+div.boxquestion h3{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background: #884323;
+    text-align: center;
+    text-transform: uppercase;
+    font:600 16px Open Sans Semibold;
+    height: 30px;
+    padding-top: 8px;
+    color: #fff;
+}
+div.boxquestion .uk-form-row {
+    padding-top: 0px !important;
+    margin: 20px;
+}
+div.boxquestion .uk-form-row .uk-form-width-medium{
+     width:340px;
+}
+a.btnalltourfix {
+    border-radius:8px;
+    color: white;
+    width: 100%;   
+    font:bold 14px Open Sans; 
+    padding-top: 11px;   
+    background:#008522;
+    padding: 8px;
+}
+a.btnalltourfix:hover{
+    color: white !important;
+    background:#009349;
+}
+/*Customize*/
+div.boxcustomize{
+    width: 100%; 
+    margin: 0px;
+    padding: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+div.boxcustomize .breadcrumb{
+    background:none;
+    margin-bottom: 6px;
+}
+div.boxcustomize .boxitem {
+    border: 1px solid #dcdcdc;
+    border-radius:4px;
+    margin-bottom: 20px;
+    font: 400 14px Open Sans Regular;
+    color: #2a2a2a; 
+}
+div.boxcustomize .boxitem h1 {
+    font:600 16px Open Sans Semibold;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: #e9ebee;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+div.boxcustomize .boxdest h2{
+    font:600 14px Open Sans Semibold;
+    color: #2a2a2a;
+    width: 100%;  
+    text-align: center;
+    text-transform:uppercase;
+}
+div.boxcustomize .boxdest .radio-item{
+    width: 50%;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;  
+}
+div.boxcustomize .boxitem .uk-form-row {
+    font: 400 14px Open Sans Regular;
+    color: #2a2a2a; 
+    padding: 10px;
+    text-align: left;
+    padding-left: 20px;
+}
+div.boxcustomize .boxitem .tourtype li {
+    list-style: none;
+    padding-left: 0px;
+}
+div.boxcustomize .boxitem label{
+    font: 400 14px Open Sans Regular;
+    color: #2a2a2a; 
+}
+div.boxcustomize .boxitem .tourtype{
+     padding-left: 10px;
+}
+div.boxcustomize .boxitem .tourtype li label {
+    list-style: none;  
+    padding-left: 0px;  
+}
+div.boxcustomize .boxitem .yourdetail{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+div.boxcustomize .boxitem .yourdetail li{
+    padding-top: 4px;
+}
+div.boxcustomize .boxitem .yourdescription{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+div.boxcustomize .boxitem ul.yourbudget{
+    padding: 0px 15px 15px 15px;
+    margin: 0px;
+}
+div.boxcustomize .boxitem .yourbudget li {
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+div.boxcustomize .traveldate .serviceyesno{
+    padding-top: 10px;
+}
+div.errorsummary {
+    font:400 14px Open Sans;
+    text-align: center;
+    color:red;
+}
+div.errorsummary ul{   
+    display: block;
+    text-align: left;
+    width: 98%;
+    border: 1px solid #e5e5e5;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    padding-left: 30px !important;
+    background: white;
+}
+div.errorsummary ul li{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+div.errorsummary p{
+    font:600 14px Open Sans Semibold;   
+    color: #2a2a2a;   
+}
+div.tabdetailtour .help-block{
+    color: red;
+}
+div.field-customizeform-number_nights .help-block{
+    display: block;
+    width: 100%;
+    float: right !important;  
+}
+div.tabdetailtour .boxitem .yourdetail .uk-form-width-medium{
+    width: 350px;
+    margin-top: 10px;
+}
+div.tabdetailtour .boxmeals .uk-form-row .itemgowwith-1{
+    display: inline-block;
+    vertical-align: top;   
+}
+div.tabdetailtour .boxmeals .uk-form-row .itemgowwith-1 input{
+    vertical-align:top;   
+    margin-top:4px;
+}
+div.tabdetailtour .boxmeals .uk-form-row .itemgowwith-1 label{
+    display: inline-block;
+    width: 90%;   
+}
+div.tabdetailtour .boxitem .tourtype .radio-item label {
+    display: inline-block;
+    width: 90%;   
+}
+div.tabdetailtour .profile .radio-item input,div.tabdetailtour .itemprofile .radio-item input{
+    vertical-align:top;   
+    margin-top:2px;
+}
+div.tabdetailtour .boxitem .tourtype .radio-item input{
+    vertical-align:top;   
+    margin-top:4px;
+}
+div.tabdetailtour .boxitem .tourtype .radio-item label {
+    display: inline-block;
+    width: 90%;
+}
+div.tabdetailtour .boxitem .tourtype .radio-item input{
+    vertical-align:top;   
+    margin-top:4px;
+}
+div.tabdetailtour .boxitem .uk-form-row .itemprofile label {
+    display: inline-block;
+    width: 90%;
+}
+div.tabdetailtour .boxitem .uk-form-row .itemprofile input{
+    vertical-align:top;   
+    margin-top:4px;
+}
+div.tabdetailtour  .locallynight .uk-form-width-mini {
+    float: left;
+}
+div.tabdetailtour  .locallynight .nights {  
+    display:block;
+    line-height: 30px;
+    margin-top: -15px;
+}
+div.tabdetailtour .notetxt{  
+    font:400 14px Open Sans Regular;
+    color: #2a2a2a;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+}
+div.tabdetailtour .boxgowith .boxitemgo >label{
+    width:100%;
+}
+div.tabdetailtour .boxgowith .boxitemgo .radio-item {   
+    text-align: left;
+    float: left;
+}
+div.tabdetailtour .boxgowith .boxitemgo .radio-item >label{
+    width: 30px;
+    text-align: left;
+}
+div.boxsocial {
+    text-align: center;
+    padding-top: 30px;
+}
+div.boxsocial a{
+    padding:8px;
+}
+div.boxsocial a .uk-icon-facebook{
+    color: #0077DD;
+}
+div.boxsocial a .uk-icon-twitter{
+    color: #0077DD;
+}
+div.boxsocial a .uk-icon-google-plus{
+    color: red;
+}
+div.boxsocial a .uk-icon-youtube-play{
+    color: red;
+}
+/*Request price*/
+div.boxrequestprice .breadcrumb{
+    background:none;
+    margin-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+div.boxrequestprice .requestprice {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+div.boxrequestprice .boxmeals .radio-item label{
+    width: 90%;
+    vertical-align: top;
+    font: 400 14px Open Sans Regular;
+}
+div.boxrequestprice .boxhotel .radio-item label{
+    width: 90%;
+    vertical-align: top;
+    font: 400 14px Open Sans Regular;
+}
+div.boxrequestprice .boxage{
+    padding-top: 10px;
+}
+div.boxrequestprice .boxage .uk-form-row .radio-item {
+    width: 92px;
+    float: left;
+}
+div.boxrequestprice .boxmeals .radio-item {
+    width: 110px;
+    float: left;   
+}
+
+div.boxrequestprice .boxage .uk-form-row .radio-item label {
+     font: 400 14px Open Sans Regular;
+}
+div.boxrequestprice .boxage >label {     
+     width: 100%;
+}
+div.boxrequestprice .boxprice .uk-list li >label {     
+     width: 100%;
+}
+div.boxrequestprice .boxprice .uk-list .form-group >label {
+     width: 100%;
+}
+div.boxrequestprice .boxcontact{
+    padding-top: 10px;
+}
+div.boxrequestprice .boxcontact .uk-form-row .radio-item {
+    width:110px;
+    float: left;
+}
+div.boxrequestprice .boxcontact .uk-form-row .radio-item label {
+     font: 400 14px Open Sans Regular;
+}
+.radio-itemdate label{
+    cursor: pointer;
+}
+.radio-itemdate label:before {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    margin: 0 8px 0 0;
+    width: 18px;
+    height: 18px;      
+    background-color: transparent;
+    cursor: pointer;
+}
+.viewall {
+    text-align: right;
+    padding-right:0px;
+    padding-top: 28px;
+    text-align: center;
+}
+.viewall a{
+    font:400 14px Open Sans Regular;
+    color:#2a2a2a;
+    font-style: italic;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius:6px;
+    border: 1px solid #008522;    
+}
+.viewall a:hover{
+    color: #008522;
+}
+/*List comment*/
+div.boxlistsubcomment{
+    margin-left:2px;
+    border-left: 1px solid white;
+    padding-left: 10px;
+}
+div.boxlistsubcomment .uk-width-1-5{
+    padding-left: 0px;
+}
+div.boxlistsubcomment .uk-width-4-5{
+    padding-left: 6px;
+}
+div.boxlistsubcomment .uk-width-4-5 .title{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+div.boxlistsubcomment .uk-width-4-5 .title a{
+    font:400 14px Open Sans Regular;
+    color:#009933;
+}
+div.boxlistsubcomment .uk-width-4-5 .datetxt{
+    font:400 13px Open Sans Regular;
+    color:#999999;
+}
+
+div.boxlistcomment{
+    font:400 14px Open Sans Regular;
+    color:#666666;
+}
+div.boxlistcomment .uk-width-4-5{
+    padding-left:10px;
+}
+div.boxlistcomment .title{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+div.boxlistcomment .title a{
+    font:400 14px Open Sans Regular;
+    color:#009933;
+}
+div.boxlistcomment .datetxt{
+    font:400 13px Open Sans Regular;
+    color:#999999;
+}
+div.boxlistcomment .boxreply{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+div.boxlistcomment .boxreply .reply{
+    padding-right:4px;
+    font:400 13px Open Sans Regular;
+    color:#009933;
+    cursor: pointer;
+}
+/*Box comment*/
+div.boxcoment{
+    margin-bottom:50px;
+}
+div.boxcoment .title{
+    font:400 18px Open Sans Regular;
+    color:#333333;
+}
+div.boxcoment label{
+     font:400 14px Open Sans Regular;
+     color:#333333;
+     display: block;
+     width: 100%;
+     padding-bottom: 4px;
+ }
+ div.boxcoment input{
+    width: 100%;
+ }
+ div.boxcoment .uk-form-row .form-control{
+     font:400 14px Open Sans Regular;
+     color:#333333;
+ }
+ div.boxcoment button.btncomment {   
+    color: white;   
+    font-size: 16px;
+    font-weight: bold;
+    height: 46px;
+    padding-top: 4px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 4px;
+    border: none;
+    background:#9C614D;
+    border-radius: 28px;
+}
+div.boxcoment .btncomment:hover{
+   background:#009349;  
+}
+div.boxreplysubmit .btnsubcomment {   
+    color: white;   
+    font-size: 16px;
+    font-weight: bold;
+    height: 30px;
+    padding-top: 0px;
+    padding-right: 14px;
+    padding-left: 14px;
+    margin-top: 0px;
+    border: none;
+    background:#009349;
+    border-radius: 6px;
+    cursor: pointer;
+}
+div.boxreplysubmit .btnsubcomment:hover { 
+    background:#9C614D;
+}
+/*boxvideo*/
+div.boxvideo {
+    background: none !important;
+}
+div.boxvideo .contenttxt{
+    border-left: 1px solid #e9ebee;
+    border-right: 1px solid #e9ebee;
+    border-bottom: 1px solid #e9ebee;
+}
+/*Footer*/
+#footer {
+    font: 400 14px Open Sans Regular;
+    background: #2a2a2a;
+    padding-top:24px;   
+    color: #9b9b9b;
+    text-align: center;
+}  
+#footer .footerlogo{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #373737;
+}
+#footer h6{
+    font: bold 18px Open Sans;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 34px;
+}
+#footer .footertitle{
+    font: bold 14px Open Sans Semibold;     
+    color: #fff;
+}
+#footer .boxgetupdate {
+    padding-left: 16px;
+}
+#footer i.uk-icon-facebook {
+    color: #0077DD;
+    margin-right: 14px;
+}
+#footer i.uk-icon-twitter {
+    color: #00b4f5;
+    margin-right: 14px;
+}
+#footer i.uk-icon-google-plus {
+    color: red;
+    margin-right: 14px;
+}
+#footer .uk-icon-youtube-play {   
+    color: red;  
+}
+#footer .subcribe {
+    background: #009349;
+    color: white;   
+    font-size: 16px;
+    font-weight: bold;
+    height: 36px;
+    padding-top:0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+    border: none;   
+    border-radius:4px;
+    cursor: pointer;
+}
+#footer .subcribe:hover {
+     background: #d04149;
+}
+#footer .boxsubscribe {
+    padding-top:14px;
+    padding-bottom: 24px;    
+}
+#footer input{
+    background: #4c4c4c;
+    border:none;
+    color: #fff;
+    font-style: italic;
+    border-radius:4px;
+}
+#footer .footercontact{
+    font:400 14px Open Sans Regular;
+    color:#9b9b9b;
+}
+#footer .footercontact a{
+    font:400 14px Open Sans Regular;
+    color:#9b9b9b;
+}
+#menufooter {
+    background:#4c4c4c;     
+    position: fixed;  
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+#menufooter .uk-container-center {    
+    color: #a7a7a7;
+    padding-top: 0px;
+    height: 54px;    
+}
+#menufooter .uk-width-1-4 {
+    font:400 10px Open Sans Regular;
+    text-align: center;
+    line-height:12px;
+    text-transform: uppercase;
+    color: #a7a7a7;
+    padding-top: 4px;
+}
+#menufooter .uk-width-1-4 a.linktxt{
+    font:300 10px Open Sans Regular;
+    text-align: center;
+    line-height:12px;
+    color: #a7a7a7;
+    text-transform: uppercase;
+}
+#menufooter .uk-navbar-toggle {
+  font-size: 34px;
+  color: #a7a7a7;
+  text-decoration: none;
+}
+div.showrating{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 6px;
+}
+div.showrating span{
+     padding-right:2px;
+     font-weight: bold;
+     color: #4a4a4a;
+}
+.uk-icon-star,.uk-icon-star-half-empty{
+    color:#FF9B00;
+}
+/*scrollfooter*/
+#scrollfooter{
+    position: fixed;
+    font-weight: bold;   
+    top:70%;
+    right: 0%;   
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    background: white;   
+    transition:all 0.4s ease-in-out 0s;
+    z-index: 999;
+    color:#009933;
+}
+div.buttontour {
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+div.buttontour li {
+    height: 40px;  
+    line-height: 24px;
+    font-family:Open Sans;
+    font-weight: 400;
+    font-size: 16px;
+}
+div.buttontour .btnplan {
+    width: 320px;
+    height: 46px;    
+    font:bold 16px Open Sans;   
+    padding-top: 11px;
+    padding-left: 28px;
+    border: none;
+    background:#008522 url("../img/icon/location.png") no-repeat 20px 6px;
+}
+div.buttontour .btnplan:hover{
+    background:#009349 url("../img/icon/location.png") no-repeat 20px 6px;
+}
+div.buttontour .btnalltour{
+    width: 290px;
+    height: 46px;
+    font:bold 16px Open Sans; 
+    padding-top: 11px;
+    border: none;
+    background:#008522 url("../img/icon/viewtour.png") no-repeat 8px 10px;
+}
+div.buttontour .btnalltour:hover{
+    background:#009349 url("../img/icon/viewtour.png") no-repeat 8px 10px;
+}
+.pricefrom{
+     font:bold 16px Open Sans;   
+     color: #833921;
+}
+.pricepax{
+     font:bold 14px Open Sans;   
+     color: #833921;
+}
+.titlepricepax{
+    font:bold 14px Open Sans;
+    color: #444;
+}
+.tablepax tr{
+    border: 1px solid #2a2a2a;  
+}
+.tablepax tr td{
+    border: 1px solid #2a2a2a;
+      padding-top: 12px;
+    padding-bottom: 12px;
+}

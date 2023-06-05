@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+</head>
+<body>
+<style>
+	/*
+	Max width before this PARTICULAR table gets nasty
+	This query will take effect for any screen smaller than 760px
+	and also iPads specifically.
+	*/
+	@media
+	only screen and (max-width: 760px),	(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+		/* Force table to not be like tables anymore */
+		table, thead, tbody, th, td, tr {
+			display: block;
+		}
+
+		/* Hide table headers (but not display: none;, for accessibility) */
+		thead tr {
+			position: absolute;
+			top: -9999px;
+			left: -9999px;
+		}
+		tr { border: 1px solid #eee; }
+		td {
+			/* Behave  like a "row" */
+			border: none;
+			border-bottom: 1px solid #eee;
+			position: relative;
+            padding: 10px;
+		
+		}
+		td:before {
+			/* Now like a table header */
+			position: absolute;
+			/* Top/left values mimic padding */
+			top: 6px;
+			left: 6px;
+			width: 45%;
+			padding-right: 10px;
+			white-space: nowrap;
+		}	
+	}
+	/* Smartphones (portrait and landscape) ----------- */
+	@media only screen
+	and (min-device-width : 320px)
+	and (max-device-width : 480px) {
+		body {
+			padding: 0;
+			margin: 0;
+			width: 320px; }
+		}
+
+	/* iPads (portrait and landscape) ----------- */
+	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+		body {
+			width: 495px;
+		}
+	}
+	</style>
+<table>
+<tr>
+<td>      
+             <span style="font:bold 16px Calibri;color:#009933;">Tên HỌ (Mlle)</span><br />
+             <span style="font:normal 12px Calibri;color:#333333;font-weight: bold;">Managing Director</span><br />
+             
+             <span style="font:normal 12px Calibri;color:#333333;"><strong>AUTHENTIK VIETNAM CO.,LTD - Tailor-made Tours to Vietnam, Laos, Cambodia and Myanmar </strong></span><br />
+             
+             <span style="font:normal 12px Calibri;color:#333333;"><font style="color:#009933;">Add</font>: 4th floor, R 401 - 402, No 3, Phan Huy Ich str, Ha Noi, Vietnam</span><br />
+             <span style="font:normal 12px Calibri;color:#333333;"><font style="color:#009933;">Tel</font>: +84 24 39 27 11 99 | +84 24 62 90 09 09  | <font style="color:#009933;">Mobile/WhatsApp</font>: +84 9 12 12 10 91</span><br />
+             
+             <span style="font:normal 12px Calibri;color:#333333;"><font style="color:#009933;">Email</font>: <a href="mailto:es@authentiktravel.com" target="_blank" style="font:normal 12px Calibri;color:#333333;text-decoration: none;">es@authentiktravel.com</a> | <font style="color:#009933;">Skype</font>: <a href="skype:authentikvietnam?chat" style="font:normal 12px Calibri;color:#333333;text-decoration: none;" >authentikvietnam</a> </span><br />
+             
+             <span style="font:normal 12px Calibri;color:#333333;"><font style="color:#009933;">Website</font>: <a href="https://authentiktravel.es" style="font:normal 12px Calibri;color:#333333;text-decoration: none;" target="_blank">www.authentiktravel.es </a> </span></span><br />
+           
+            <div>
+            <table>
+             <tr>
+              <td style="white-space: nowrap;" width="1%"> <a href="https://www.tripadvisor.es/Attraction_Review-g293924-d11641267-Reviews-Authentik_Vietnam_Travel-Hanoi.html" target="_blank" style="height: 36px !important; text-decoration:none;color: #009999;margin-top: 0px;text-transform: uppercase;padding-top: 0px;"><img style="padding-right: 10px;float: left;" src="https://authentiktravel.com/media/signature/certificate-trip.png" alt="Certificate Trip"/></a></td>
+              <td> <a href="https://www.tripadvisor.es/Attraction_Review-g293924-d11641267-Reviews-Authentik_Vietnam_Travel-Hanoi.html" target="_blank" style="height: 36px !important; text-decoration:none;color: #009999;margin-top: 0px;text-transform: uppercase;padding-top: 0px;">Certificate of Excellence 2019</a></td>
+             </tr>
+            </table>           
+            </div>
+</td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /vendor/
+Disallow: /data-base/
+Disallow: /backend/
+Disallow: /tools/
+Disallow: /console/
+Allow: /sitemap.html
+Sitemap:https://authentiktravel.es/sitemap.xml

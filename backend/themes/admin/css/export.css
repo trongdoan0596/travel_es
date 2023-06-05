@@ -1,0 +1,135 @@
+a:active,a:hover{
+    outline:0
+}
+a{
+    color:#07D !important;
+    text-decoration:none;
+    cursor:pointer;
+}
+/*header*/
+/*
+div.logoheadexport {
+    text-align: left;
+}
+*/
+/*mainexport*/
+div.mainexport{
+    font-family: Tahoma !important;
+    font-size: 12px !important;
+   /* padding-top:50px;*/
+}
+div.mainexport h1 {
+     text-align: center !important;
+     font-size: 16px;
+     text-transform: uppercase !important;
+     color: #C00000 !important;
+}
+div.mainexport h2 {
+     text-align: center !important;
+     font-size: 16px;
+     text-transform: uppercase !important;
+}
+div.mainexport h3 {
+     text-align: center !important;
+     font-size: 14px;
+}
+
+table.infoperson{
+     border: 1px solid #C2C2C2;
+     border-bottom:none;
+     border-right: none;
+}
+table.infoperson td {
+     border-bottom: 1px solid #C2C2C2;
+     border-right: 1px solid #C2C2C2;
+     height: 30px;
+     padding: 10px;
+    
+}
+table.infoperson td.coltitle{
+     font-weight: bold;    
+}
+div.headprogram{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+div.title-detail{
+    font-weight: bold;   
+}
+div.title-detail-jour{
+    font-weight: bold;
+    color: #000;   
+    text-decoration: underline;
+    -moz-text-decoration-color: #000;; /* Code for Firefox */
+    text-decoration-color: #000;;
+    text-decoration: underline solid #000;
+}
+div.thumbnailimg {
+    text-align: center;
+    padding-bottom: 14px;
+    padding-top: 14px;
+}
+div.thumbnailimg .img {
+    float: left;
+    width: 120px;
+    height: 110px;
+    padding: 2px;   
+}
+div.thumbnailimg .img-1 {
+    padding-left: -2px;
+}
+div.thumbnailimg .img-4 {
+    padding-right: -2px;
+}
+h2.group-title-price{
+    font-weight: bold;
+    text-transform: uppercase !important;
+    text-align: center !important;
+}
+div.content-group-price {
+    font-size: 12px;
+    font-weight: bold;   
+    text-align: center !important;
+}
+div.content-group-price div.pricetxt{
+    font-size: 16px;
+    font-weight: bold;   
+    text-align: center !important;
+}
+table.infolistservice{
+     border: 1px solid #C2C2C2;
+     border-bottom:none;
+     border-right: none;
+}
+table.infolistservice td {
+     border-bottom: 1px solid #C2C2C2;
+     border-right: 1px solid #C2C2C2;
+     height: 30px;
+     padding: 10px;
+     text-align: center !important;    
+}
+table.infolistservice td.coltitle{
+     font-weight: bold;  
+     text-align: center !important;  
+}
+table.infolistservice td .infoaddress {   
+    text-align: left !important;
+}
+div.infoaddress{
+    text-align: left !important;
+    width: 100%;   
+}
+table.infolistservice td.boxaddress {
+     text-align: left !important;
+}
+/*Footer*/
+/*div.footerexport {
+    font-style: italic;
+    font-size: 12px;
+    text-align: center !important;
+    padding-top: 20px;   
+    font-weight: normal;
+    font-family: Tahoma;	
+}
+*/
