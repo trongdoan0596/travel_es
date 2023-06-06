@@ -66,8 +66,16 @@ if(Yii::$app->user->getIsGuest()){
                 </nav>
        </header >
  </div>       
-<div id="main" >
-<div class="side-left">
+<div class="page-wrapper" >
+<div class="page-inner" >
+<div class="page-sidebar">
+    <div class="page-logo">
+        <a href="#" class="page-logo-link press-scale-down d-flex align-items-center position-relative" data-toggle="modal" data-target="#modal-shortcut">
+            <img src="/themes/admin/images/logo-cms.png" alt="authentiktravel.com/" aria-roledescription="logo">
+            <span class="page-logo-text mr-1">authentiktravel.com</span>
+            <span class="position-absolute text-white opacity-50 small pos-top pos-right mr-2 mt-n2"></span>
+        </a>
+    </div>
       <div class="boxleft">
      <?php        
      $items =array();
@@ -144,7 +152,7 @@ if(Yii::$app->user->getIsGuest()){
        'submenuTemplate' => "\n<ul class='dropdown' role='menu'>\n{items}\n</ul>\n",   
 	   // 'submenuTemplate' => "\n<ul id='level' class='dropdown' >\n{items}\n</ul>\n",
     	'options' => array(
-	                    'class' =>'uk-nav',
+	                    'class' =>'uk-nav nav-menu js-nav-built',
 	                    'id'=>'menu_left',
 	                    //'style'=>'font-size: 14px;',
 	                    //'data-tag'=>'yii2-menu',
@@ -161,9 +169,10 @@ if(Yii::$app->user->getIsGuest()){
        Version :<?php echo Yii::getVersion();?>
        </div>
    </div>    
-    <div class="maincontent">
+    <div class="page-content-wrapper">
         <?php echo $content ?>
      </div>
+</div>
 </div>
     <?php
 }

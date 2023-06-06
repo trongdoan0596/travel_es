@@ -21,6 +21,16 @@ class AppAsset extends AssetBundle
        // 'themes/admin/css/components/accordion.min.css',
        // 'themes/admin/css/components/sortable.min.css',
         'themes/admin/css/style.css',
+        'css/themes/css/style.css',
+        'css/site.css?v=1.0',
+        'css/notifications/toastr/toastr.css',
+        '/assets/global/plugins/select2/select2.css',
+        '/css/formplugins/bootstrap-daterangepicker/bootstrap-daterangepicker.css',
+        '/css/default_skin.css',
+        '/css/videojs-hls-player.css',
+        '/css/app.bundle.css',
+        '/css/vendors.bundle.css',
+        '/css/themes/cust-theme-2.css',
     );
     public $js = array(
        // 'themes/web/js/uikit.min.js',

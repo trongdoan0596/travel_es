@@ -66688,3 +66688,1477 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1685956945.9998
     'REQUEST_TIME' => 1685956945
 ]
+2023-06-05 11:41:43 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "media/user/cb417cbfe90182bf3a907723dc2f8773.png". in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('media/user/cb41...', Array)
+#1 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#2 {main}
+2023-06-05 11:41:43 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.396585643.1673942342.1673942342.1673942342.1'
+    '__utmz' => '111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'twk_uuid_5d3182cc6d808312283907eb' => '{\"uuid\":\"1.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT\",\"version\":3,\"domain\":null,\"ts\":1673942343610}'
+    '__gads' => 'ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA'
+    '_ga' => 'GA1.1.1810623056.1677205923'
+    'twk_uuid_63f6cf8a4247f20fefe220c1' => '{\"uuid\":\"1.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp\",\"version\":3,\"domain\":null,\"ts\":1677336355764}'
+    '__gpi' => 'UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg'
+    '_gcl_au' => '1.1.305972352.1683187401'
+    'twk_uuid_63fa203531ebfa0fe7ef489d' => '{\"uuid\":\"1.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn\",\"version\":3,\"domain\":null,\"ts\":1683188891592}'
+    '_ga_GNSZR91JYF' => 'GS1.1.1683196293.57.0.1683196293.0.0.0'
+    '_gid' => 'GA1.1.1034550435.1685934869'
+    '_BdSesId' => 'fd3s3g0rl7no6aj1lokqp258a0'
+    '_csrf' => '174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost:90/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_COOKIE' => '__utma=111872281.396585643.1673942342.1673942342.1673942342.1; __utmz=111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); twk_uuid_5d3182cc6d808312283907eb=%7B%22uuid%22%3A%221.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1673942343610%7D; __gads=ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA; _ga=GA1.1.1810623056.1677205923; twk_uuid_63f6cf8a4247f20fefe220c1=%7B%22uuid%22%3A%221.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1677336355764%7D; __gpi=UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg; _gcl_au=1.1.305972352.1683187401; twk_uuid_63fa203531ebfa0fe7ef489d=%7B%22uuid%22%3A%221.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1683188891592%7D; _ga_GNSZR91JYF=GS1.1.1683196293.57.0.1683196293.0.0.0; _gid=GA1.1.1034550435.1685934869; _BdSesId=fd3s3g0rl7no6aj1lokqp258a0; _csrf=174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MongoDB\\Server\\6.0\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\User\\scoop\\shims;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\MongoDB\\Server\\3.4\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17 Server at localhost Port 90</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'SERVER_ADMIN' => 'beta.authentiktravel.es'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/travel_es/index.php'
+    'REMOTE_PORT' => '54922'
+    'REDIRECT_URL' => '/media/user/cb417cbfe90182bf3a907723dc2f8773.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/media/user/cb417cbfe90182bf3a907723dc2f8773.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1685958103.0877
+    'REQUEST_TIME' => 1685958103
+]
+2023-06-05 11:41:43 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "media/user/f3277d47665b0b7a384f6562b1ab4006.png". in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('media/user/f327...', Array)
+#1 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#2 {main}
+2023-06-05 11:41:43 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.396585643.1673942342.1673942342.1673942342.1'
+    '__utmz' => '111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'twk_uuid_5d3182cc6d808312283907eb' => '{\"uuid\":\"1.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT\",\"version\":3,\"domain\":null,\"ts\":1673942343610}'
+    '__gads' => 'ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA'
+    '_ga' => 'GA1.1.1810623056.1677205923'
+    'twk_uuid_63f6cf8a4247f20fefe220c1' => '{\"uuid\":\"1.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp\",\"version\":3,\"domain\":null,\"ts\":1677336355764}'
+    '__gpi' => 'UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg'
+    '_gcl_au' => '1.1.305972352.1683187401'
+    'twk_uuid_63fa203531ebfa0fe7ef489d' => '{\"uuid\":\"1.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn\",\"version\":3,\"domain\":null,\"ts\":1683188891592}'
+    '_ga_GNSZR91JYF' => 'GS1.1.1683196293.57.0.1683196293.0.0.0'
+    '_gid' => 'GA1.1.1034550435.1685934869'
+    '_BdSesId' => 'fd3s3g0rl7no6aj1lokqp258a0'
+    '_csrf' => '174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost:90/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_COOKIE' => '__utma=111872281.396585643.1673942342.1673942342.1673942342.1; __utmz=111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); twk_uuid_5d3182cc6d808312283907eb=%7B%22uuid%22%3A%221.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1673942343610%7D; __gads=ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA; _ga=GA1.1.1810623056.1677205923; twk_uuid_63f6cf8a4247f20fefe220c1=%7B%22uuid%22%3A%221.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1677336355764%7D; __gpi=UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg; _gcl_au=1.1.305972352.1683187401; twk_uuid_63fa203531ebfa0fe7ef489d=%7B%22uuid%22%3A%221.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1683188891592%7D; _ga_GNSZR91JYF=GS1.1.1683196293.57.0.1683196293.0.0.0; _gid=GA1.1.1034550435.1685934869; _BdSesId=fd3s3g0rl7no6aj1lokqp258a0; _csrf=174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MongoDB\\Server\\6.0\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\User\\scoop\\shims;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\MongoDB\\Server\\3.4\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17 Server at localhost Port 90</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'SERVER_ADMIN' => 'beta.authentiktravel.es'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/travel_es/index.php'
+    'REMOTE_PORT' => '54923'
+    'REDIRECT_URL' => '/media/user/f3277d47665b0b7a384f6562b1ab4006.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/media/user/f3277d47665b0b7a384f6562b1ab4006.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1685958103.0877
+    'REQUEST_TIME' => 1685958103
+]
+2023-06-05 11:41:43 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "media/user/8e1d9d5fca221fdf53cfb67df572638b.png". in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('media/user/8e1d...', Array)
+#1 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#2 {main}
+2023-06-05 11:41:43 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.396585643.1673942342.1673942342.1673942342.1'
+    '__utmz' => '111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'twk_uuid_5d3182cc6d808312283907eb' => '{\"uuid\":\"1.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT\",\"version\":3,\"domain\":null,\"ts\":1673942343610}'
+    '__gads' => 'ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA'
+    '_ga' => 'GA1.1.1810623056.1677205923'
+    'twk_uuid_63f6cf8a4247f20fefe220c1' => '{\"uuid\":\"1.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp\",\"version\":3,\"domain\":null,\"ts\":1677336355764}'
+    '__gpi' => 'UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg'
+    '_gcl_au' => '1.1.305972352.1683187401'
+    'twk_uuid_63fa203531ebfa0fe7ef489d' => '{\"uuid\":\"1.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn\",\"version\":3,\"domain\":null,\"ts\":1683188891592}'
+    '_ga_GNSZR91JYF' => 'GS1.1.1683196293.57.0.1683196293.0.0.0'
+    '_gid' => 'GA1.1.1034550435.1685934869'
+    '_BdSesId' => 'fd3s3g0rl7no6aj1lokqp258a0'
+    '_csrf' => '174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost:90/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_COOKIE' => '__utma=111872281.396585643.1673942342.1673942342.1673942342.1; __utmz=111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); twk_uuid_5d3182cc6d808312283907eb=%7B%22uuid%22%3A%221.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1673942343610%7D; __gads=ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA; _ga=GA1.1.1810623056.1677205923; twk_uuid_63f6cf8a4247f20fefe220c1=%7B%22uuid%22%3A%221.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1677336355764%7D; __gpi=UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg; _gcl_au=1.1.305972352.1683187401; twk_uuid_63fa203531ebfa0fe7ef489d=%7B%22uuid%22%3A%221.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1683188891592%7D; _ga_GNSZR91JYF=GS1.1.1683196293.57.0.1683196293.0.0.0; _gid=GA1.1.1034550435.1685934869; _BdSesId=fd3s3g0rl7no6aj1lokqp258a0; _csrf=174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MongoDB\\Server\\6.0\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\User\\scoop\\shims;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\MongoDB\\Server\\3.4\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17 Server at localhost Port 90</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'SERVER_ADMIN' => 'beta.authentiktravel.es'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/travel_es/index.php'
+    'REMOTE_PORT' => '54923'
+    'REDIRECT_URL' => '/media/user/8e1d9d5fca221fdf53cfb67df572638b.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/media/user/8e1d9d5fca221fdf53cfb67df572638b.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1685958103.1745
+    'REQUEST_TIME' => 1685958103
+]
+2023-06-05 11:41:43 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "media/user/d7d791dd772115c8db153493663ccaae.png". in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('media/user/d7d7...', Array)
+#1 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#2 {main}
+2023-06-05 11:41:43 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.396585643.1673942342.1673942342.1673942342.1'
+    '__utmz' => '111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'twk_uuid_5d3182cc6d808312283907eb' => '{\"uuid\":\"1.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT\",\"version\":3,\"domain\":null,\"ts\":1673942343610}'
+    '__gads' => 'ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA'
+    '_ga' => 'GA1.1.1810623056.1677205923'
+    'twk_uuid_63f6cf8a4247f20fefe220c1' => '{\"uuid\":\"1.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp\",\"version\":3,\"domain\":null,\"ts\":1677336355764}'
+    '__gpi' => 'UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg'
+    '_gcl_au' => '1.1.305972352.1683187401'
+    'twk_uuid_63fa203531ebfa0fe7ef489d' => '{\"uuid\":\"1.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn\",\"version\":3,\"domain\":null,\"ts\":1683188891592}'
+    '_ga_GNSZR91JYF' => 'GS1.1.1683196293.57.0.1683196293.0.0.0'
+    '_gid' => 'GA1.1.1034550435.1685934869'
+    '_BdSesId' => 'fd3s3g0rl7no6aj1lokqp258a0'
+    '_csrf' => '174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost:90/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_COOKIE' => '__utma=111872281.396585643.1673942342.1673942342.1673942342.1; __utmz=111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); twk_uuid_5d3182cc6d808312283907eb=%7B%22uuid%22%3A%221.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1673942343610%7D; __gads=ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA; _ga=GA1.1.1810623056.1677205923; twk_uuid_63f6cf8a4247f20fefe220c1=%7B%22uuid%22%3A%221.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1677336355764%7D; __gpi=UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg; _gcl_au=1.1.305972352.1683187401; twk_uuid_63fa203531ebfa0fe7ef489d=%7B%22uuid%22%3A%221.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1683188891592%7D; _ga_GNSZR91JYF=GS1.1.1683196293.57.0.1683196293.0.0.0; _gid=GA1.1.1034550435.1685934869; _BdSesId=fd3s3g0rl7no6aj1lokqp258a0; _csrf=174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MongoDB\\Server\\6.0\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\User\\scoop\\shims;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\MongoDB\\Server\\3.4\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17 Server at localhost Port 90</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'SERVER_ADMIN' => 'beta.authentiktravel.es'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/travel_es/index.php'
+    'REMOTE_PORT' => '54925'
+    'REDIRECT_URL' => '/media/user/d7d791dd772115c8db153493663ccaae.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/media/user/d7d791dd772115c8db153493663ccaae.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1685958103.178
+    'REQUEST_TIME' => 1685958103
+]
+2023-06-05 11:41:43 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "media/user/af1fa5768eddf3cc0b1cc4f5210f323d.png". in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('media/user/af1f...', Array)
+#1 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#2 {main}
+2023-06-05 11:41:43 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.396585643.1673942342.1673942342.1673942342.1'
+    '__utmz' => '111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'twk_uuid_5d3182cc6d808312283907eb' => '{\"uuid\":\"1.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT\",\"version\":3,\"domain\":null,\"ts\":1673942343610}'
+    '__gads' => 'ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA'
+    '_ga' => 'GA1.1.1810623056.1677205923'
+    'twk_uuid_63f6cf8a4247f20fefe220c1' => '{\"uuid\":\"1.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp\",\"version\":3,\"domain\":null,\"ts\":1677336355764}'
+    '__gpi' => 'UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg'
+    '_gcl_au' => '1.1.305972352.1683187401'
+    'twk_uuid_63fa203531ebfa0fe7ef489d' => '{\"uuid\":\"1.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn\",\"version\":3,\"domain\":null,\"ts\":1683188891592}'
+    '_ga_GNSZR91JYF' => 'GS1.1.1683196293.57.0.1683196293.0.0.0'
+    '_gid' => 'GA1.1.1034550435.1685934869'
+    '_BdSesId' => 'fd3s3g0rl7no6aj1lokqp258a0'
+    '_csrf' => '174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost:90/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_COOKIE' => '__utma=111872281.396585643.1673942342.1673942342.1673942342.1; __utmz=111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); twk_uuid_5d3182cc6d808312283907eb=%7B%22uuid%22%3A%221.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1673942343610%7D; __gads=ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA; _ga=GA1.1.1810623056.1677205923; twk_uuid_63f6cf8a4247f20fefe220c1=%7B%22uuid%22%3A%221.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1677336355764%7D; __gpi=UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg; _gcl_au=1.1.305972352.1683187401; twk_uuid_63fa203531ebfa0fe7ef489d=%7B%22uuid%22%3A%221.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1683188891592%7D; _ga_GNSZR91JYF=GS1.1.1683196293.57.0.1683196293.0.0.0; _gid=GA1.1.1034550435.1685934869; _BdSesId=fd3s3g0rl7no6aj1lokqp258a0; _csrf=174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MongoDB\\Server\\6.0\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\User\\scoop\\shims;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\MongoDB\\Server\\3.4\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17 Server at localhost Port 90</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'SERVER_ADMIN' => 'beta.authentiktravel.es'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/travel_es/index.php'
+    'REMOTE_PORT' => '54922'
+    'REDIRECT_URL' => '/media/user/af1fa5768eddf3cc0b1cc4f5210f323d.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/media/user/af1fa5768eddf3cc0b1cc4f5210f323d.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1685958103.1735
+    'REQUEST_TIME' => 1685958103
+]
+2023-06-05 11:41:43 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "media/user/06d34a0e29f4c2a1a95df2dd77280943.png". in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('media/user/06d3...', Array)
+#1 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#2 {main}
+2023-06-05 11:41:43 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.396585643.1673942342.1673942342.1673942342.1'
+    '__utmz' => '111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'twk_uuid_5d3182cc6d808312283907eb' => '{\"uuid\":\"1.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT\",\"version\":3,\"domain\":null,\"ts\":1673942343610}'
+    '__gads' => 'ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA'
+    '_ga' => 'GA1.1.1810623056.1677205923'
+    'twk_uuid_63f6cf8a4247f20fefe220c1' => '{\"uuid\":\"1.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp\",\"version\":3,\"domain\":null,\"ts\":1677336355764}'
+    '__gpi' => 'UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg'
+    '_gcl_au' => '1.1.305972352.1683187401'
+    'twk_uuid_63fa203531ebfa0fe7ef489d' => '{\"uuid\":\"1.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn\",\"version\":3,\"domain\":null,\"ts\":1683188891592}'
+    '_ga_GNSZR91JYF' => 'GS1.1.1683196293.57.0.1683196293.0.0.0'
+    '_gid' => 'GA1.1.1034550435.1685934869'
+    '_BdSesId' => 'fd3s3g0rl7no6aj1lokqp258a0'
+    '_csrf' => '174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost:90/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_COOKIE' => '__utma=111872281.396585643.1673942342.1673942342.1673942342.1; __utmz=111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); twk_uuid_5d3182cc6d808312283907eb=%7B%22uuid%22%3A%221.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1673942343610%7D; __gads=ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA; _ga=GA1.1.1810623056.1677205923; twk_uuid_63f6cf8a4247f20fefe220c1=%7B%22uuid%22%3A%221.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1677336355764%7D; __gpi=UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg; _gcl_au=1.1.305972352.1683187401; twk_uuid_63fa203531ebfa0fe7ef489d=%7B%22uuid%22%3A%221.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1683188891592%7D; _ga_GNSZR91JYF=GS1.1.1683196293.57.0.1683196293.0.0.0; _gid=GA1.1.1034550435.1685934869; _BdSesId=fd3s3g0rl7no6aj1lokqp258a0; _csrf=174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MongoDB\\Server\\6.0\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\User\\scoop\\shims;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\MongoDB\\Server\\3.4\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17 Server at localhost Port 90</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'SERVER_ADMIN' => 'beta.authentiktravel.es'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/travel_es/index.php'
+    'REMOTE_PORT' => '54922'
+    'REDIRECT_URL' => '/media/user/06d34a0e29f4c2a1a95df2dd77280943.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/media/user/06d34a0e29f4c2a1a95df2dd77280943.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1685958103.2418
+    'REQUEST_TIME' => 1685958103
+]
+2023-06-05 11:41:43 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "media/user/cb31e523506d25b43d11e08e247cda39.png". in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('media/user/cb31...', Array)
+#1 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#2 {main}
+2023-06-05 11:41:43 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.396585643.1673942342.1673942342.1673942342.1'
+    '__utmz' => '111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'twk_uuid_5d3182cc6d808312283907eb' => '{\"uuid\":\"1.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT\",\"version\":3,\"domain\":null,\"ts\":1673942343610}'
+    '__gads' => 'ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA'
+    '_ga' => 'GA1.1.1810623056.1677205923'
+    'twk_uuid_63f6cf8a4247f20fefe220c1' => '{\"uuid\":\"1.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp\",\"version\":3,\"domain\":null,\"ts\":1677336355764}'
+    '__gpi' => 'UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg'
+    '_gcl_au' => '1.1.305972352.1683187401'
+    'twk_uuid_63fa203531ebfa0fe7ef489d' => '{\"uuid\":\"1.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn\",\"version\":3,\"domain\":null,\"ts\":1683188891592}'
+    '_ga_GNSZR91JYF' => 'GS1.1.1683196293.57.0.1683196293.0.0.0'
+    '_gid' => 'GA1.1.1034550435.1685934869'
+    '_BdSesId' => 'fd3s3g0rl7no6aj1lokqp258a0'
+    '_csrf' => '174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost:90/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_COOKIE' => '__utma=111872281.396585643.1673942342.1673942342.1673942342.1; __utmz=111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); twk_uuid_5d3182cc6d808312283907eb=%7B%22uuid%22%3A%221.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1673942343610%7D; __gads=ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA; _ga=GA1.1.1810623056.1677205923; twk_uuid_63f6cf8a4247f20fefe220c1=%7B%22uuid%22%3A%221.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1677336355764%7D; __gpi=UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg; _gcl_au=1.1.305972352.1683187401; twk_uuid_63fa203531ebfa0fe7ef489d=%7B%22uuid%22%3A%221.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1683188891592%7D; _ga_GNSZR91JYF=GS1.1.1683196293.57.0.1683196293.0.0.0; _gid=GA1.1.1034550435.1685934869; _BdSesId=fd3s3g0rl7no6aj1lokqp258a0; _csrf=174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MongoDB\\Server\\6.0\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\User\\scoop\\shims;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\MongoDB\\Server\\3.4\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17 Server at localhost Port 90</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'SERVER_ADMIN' => 'beta.authentiktravel.es'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/travel_es/index.php'
+    'REMOTE_PORT' => '54925'
+    'REDIRECT_URL' => '/media/user/cb31e523506d25b43d11e08e247cda39.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/media/user/cb31e523506d25b43d11e08e247cda39.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1685958103.2518
+    'REQUEST_TIME' => 1685958103
+]
+2023-06-05 11:41:43 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "media/ourteam/Ly-for-web.jpg". in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('media/ourteam/L...', Array)
+#1 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#2 {main}
+2023-06-05 11:41:43 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.396585643.1673942342.1673942342.1673942342.1'
+    '__utmz' => '111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'twk_uuid_5d3182cc6d808312283907eb' => '{\"uuid\":\"1.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT\",\"version\":3,\"domain\":null,\"ts\":1673942343610}'
+    '__gads' => 'ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA'
+    '_ga' => 'GA1.1.1810623056.1677205923'
+    'twk_uuid_63f6cf8a4247f20fefe220c1' => '{\"uuid\":\"1.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp\",\"version\":3,\"domain\":null,\"ts\":1677336355764}'
+    '__gpi' => 'UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg'
+    '_gcl_au' => '1.1.305972352.1683187401'
+    'twk_uuid_63fa203531ebfa0fe7ef489d' => '{\"uuid\":\"1.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn\",\"version\":3,\"domain\":null,\"ts\":1683188891592}'
+    '_ga_GNSZR91JYF' => 'GS1.1.1683196293.57.0.1683196293.0.0.0'
+    '_gid' => 'GA1.1.1034550435.1685934869'
+    '_BdSesId' => 'fd3s3g0rl7no6aj1lokqp258a0'
+    '_csrf' => '174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost:90/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_COOKIE' => '__utma=111872281.396585643.1673942342.1673942342.1673942342.1; __utmz=111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); twk_uuid_5d3182cc6d808312283907eb=%7B%22uuid%22%3A%221.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1673942343610%7D; __gads=ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA; _ga=GA1.1.1810623056.1677205923; twk_uuid_63f6cf8a4247f20fefe220c1=%7B%22uuid%22%3A%221.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1677336355764%7D; __gpi=UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg; _gcl_au=1.1.305972352.1683187401; twk_uuid_63fa203531ebfa0fe7ef489d=%7B%22uuid%22%3A%221.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1683188891592%7D; _ga_GNSZR91JYF=GS1.1.1683196293.57.0.1683196293.0.0.0; _gid=GA1.1.1034550435.1685934869; _BdSesId=fd3s3g0rl7no6aj1lokqp258a0; _csrf=174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MongoDB\\Server\\6.0\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\User\\scoop\\shims;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\MongoDB\\Server\\3.4\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17 Server at localhost Port 90</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'SERVER_ADMIN' => 'beta.authentiktravel.es'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/travel_es/index.php'
+    'REMOTE_PORT' => '54923'
+    'REDIRECT_URL' => '/media/ourteam/Ly-for-web.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/media/ourteam/Ly-for-web.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1685958103.2637
+    'REQUEST_TIME' => 1685958103
+]
+2023-06-05 11:41:43 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "media/ourteam/Bien-Chuyen-for-web.jpg". in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('media/ourteam/B...', Array)
+#1 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#2 {main}
+2023-06-05 11:41:43 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.396585643.1673942342.1673942342.1673942342.1'
+    '__utmz' => '111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'twk_uuid_5d3182cc6d808312283907eb' => '{\"uuid\":\"1.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT\",\"version\":3,\"domain\":null,\"ts\":1673942343610}'
+    '__gads' => 'ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA'
+    '_ga' => 'GA1.1.1810623056.1677205923'
+    'twk_uuid_63f6cf8a4247f20fefe220c1' => '{\"uuid\":\"1.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp\",\"version\":3,\"domain\":null,\"ts\":1677336355764}'
+    '__gpi' => 'UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg'
+    '_gcl_au' => '1.1.305972352.1683187401'
+    'twk_uuid_63fa203531ebfa0fe7ef489d' => '{\"uuid\":\"1.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn\",\"version\":3,\"domain\":null,\"ts\":1683188891592}'
+    '_ga_GNSZR91JYF' => 'GS1.1.1683196293.57.0.1683196293.0.0.0'
+    '_gid' => 'GA1.1.1034550435.1685934869'
+    '_BdSesId' => 'fd3s3g0rl7no6aj1lokqp258a0'
+    '_csrf' => '174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost:90/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_COOKIE' => '__utma=111872281.396585643.1673942342.1673942342.1673942342.1; __utmz=111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); twk_uuid_5d3182cc6d808312283907eb=%7B%22uuid%22%3A%221.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1673942343610%7D; __gads=ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA; _ga=GA1.1.1810623056.1677205923; twk_uuid_63f6cf8a4247f20fefe220c1=%7B%22uuid%22%3A%221.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1677336355764%7D; __gpi=UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg; _gcl_au=1.1.305972352.1683187401; twk_uuid_63fa203531ebfa0fe7ef489d=%7B%22uuid%22%3A%221.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1683188891592%7D; _ga_GNSZR91JYF=GS1.1.1683196293.57.0.1683196293.0.0.0; _gid=GA1.1.1034550435.1685934869; _BdSesId=fd3s3g0rl7no6aj1lokqp258a0; _csrf=174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MongoDB\\Server\\6.0\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\User\\scoop\\shims;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\MongoDB\\Server\\3.4\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17 Server at localhost Port 90</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'SERVER_ADMIN' => 'beta.authentiktravel.es'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/travel_es/index.php'
+    'REMOTE_PORT' => '54922'
+    'REDIRECT_URL' => '/media/ourteam/Bien-Chuyen-for-web.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/media/ourteam/Bien-Chuyen-for-web.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1685958103.2986
+    'REQUEST_TIME' => 1685958103
+]
+2023-06-05 11:41:43 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "media/ourteam/thuy-hang.jpg". in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('media/ourteam/t...', Array)
+#1 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#2 {main}
+2023-06-05 11:41:43 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.396585643.1673942342.1673942342.1673942342.1'
+    '__utmz' => '111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'twk_uuid_5d3182cc6d808312283907eb' => '{\"uuid\":\"1.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT\",\"version\":3,\"domain\":null,\"ts\":1673942343610}'
+    '__gads' => 'ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA'
+    '_ga' => 'GA1.1.1810623056.1677205923'
+    'twk_uuid_63f6cf8a4247f20fefe220c1' => '{\"uuid\":\"1.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp\",\"version\":3,\"domain\":null,\"ts\":1677336355764}'
+    '__gpi' => 'UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg'
+    '_gcl_au' => '1.1.305972352.1683187401'
+    'twk_uuid_63fa203531ebfa0fe7ef489d' => '{\"uuid\":\"1.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn\",\"version\":3,\"domain\":null,\"ts\":1683188891592}'
+    '_ga_GNSZR91JYF' => 'GS1.1.1683196293.57.0.1683196293.0.0.0'
+    '_gid' => 'GA1.1.1034550435.1685934869'
+    '_BdSesId' => 'fd3s3g0rl7no6aj1lokqp258a0'
+    '_csrf' => '174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost:90/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_COOKIE' => '__utma=111872281.396585643.1673942342.1673942342.1673942342.1; __utmz=111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); twk_uuid_5d3182cc6d808312283907eb=%7B%22uuid%22%3A%221.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1673942343610%7D; __gads=ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA; _ga=GA1.1.1810623056.1677205923; twk_uuid_63f6cf8a4247f20fefe220c1=%7B%22uuid%22%3A%221.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1677336355764%7D; __gpi=UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg; _gcl_au=1.1.305972352.1683187401; twk_uuid_63fa203531ebfa0fe7ef489d=%7B%22uuid%22%3A%221.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1683188891592%7D; _ga_GNSZR91JYF=GS1.1.1683196293.57.0.1683196293.0.0.0; _gid=GA1.1.1034550435.1685934869; _BdSesId=fd3s3g0rl7no6aj1lokqp258a0; _csrf=174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MongoDB\\Server\\6.0\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\User\\scoop\\shims;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\MongoDB\\Server\\3.4\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17 Server at localhost Port 90</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'SERVER_ADMIN' => 'beta.authentiktravel.es'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/travel_es/index.php'
+    'REMOTE_PORT' => '54925'
+    'REDIRECT_URL' => '/media/ourteam/thuy-hang.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/media/ourteam/thuy-hang.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1685958103.3086
+    'REQUEST_TIME' => 1685958103
+]
+2023-06-05 11:41:43 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "media/video/top-must-see-places-in-vietnam.jpg". in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('media/video/top...', Array)
+#1 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#2 {main}
+2023-06-05 11:41:43 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.396585643.1673942342.1673942342.1673942342.1'
+    '__utmz' => '111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'twk_uuid_5d3182cc6d808312283907eb' => '{\"uuid\":\"1.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT\",\"version\":3,\"domain\":null,\"ts\":1673942343610}'
+    '__gads' => 'ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA'
+    '_ga' => 'GA1.1.1810623056.1677205923'
+    'twk_uuid_63f6cf8a4247f20fefe220c1' => '{\"uuid\":\"1.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp\",\"version\":3,\"domain\":null,\"ts\":1677336355764}'
+    '__gpi' => 'UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg'
+    '_gcl_au' => '1.1.305972352.1683187401'
+    'twk_uuid_63fa203531ebfa0fe7ef489d' => '{\"uuid\":\"1.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn\",\"version\":3,\"domain\":null,\"ts\":1683188891592}'
+    '_ga_GNSZR91JYF' => 'GS1.1.1683196293.57.0.1683196293.0.0.0'
+    '_gid' => 'GA1.1.1034550435.1685934869'
+    '_BdSesId' => 'fd3s3g0rl7no6aj1lokqp258a0'
+    '_csrf' => '174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost:90/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_COOKIE' => '__utma=111872281.396585643.1673942342.1673942342.1673942342.1; __utmz=111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); twk_uuid_5d3182cc6d808312283907eb=%7B%22uuid%22%3A%221.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1673942343610%7D; __gads=ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA; _ga=GA1.1.1810623056.1677205923; twk_uuid_63f6cf8a4247f20fefe220c1=%7B%22uuid%22%3A%221.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1677336355764%7D; __gpi=UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg; _gcl_au=1.1.305972352.1683187401; twk_uuid_63fa203531ebfa0fe7ef489d=%7B%22uuid%22%3A%221.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1683188891592%7D; _ga_GNSZR91JYF=GS1.1.1683196293.57.0.1683196293.0.0.0; _gid=GA1.1.1034550435.1685934869; _BdSesId=fd3s3g0rl7no6aj1lokqp258a0; _csrf=174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MongoDB\\Server\\6.0\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\User\\scoop\\shims;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\MongoDB\\Server\\3.4\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17 Server at localhost Port 90</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'SERVER_ADMIN' => 'beta.authentiktravel.es'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/travel_es/index.php'
+    'REMOTE_PORT' => '54923'
+    'REDIRECT_URL' => '/media/video/top-must-see-places-in-vietnam.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/media/video/top-must-see-places-in-vietnam.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1685958103.3196
+    'REQUEST_TIME' => 1685958103
+]
+2023-06-05 11:41:43 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "media/video/340_214/Ben-tre-Vietnam.jpg". in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('media/video/340...', Array)
+#1 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#2 {main}
+2023-06-05 11:41:43 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.396585643.1673942342.1673942342.1673942342.1'
+    '__utmz' => '111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'twk_uuid_5d3182cc6d808312283907eb' => '{\"uuid\":\"1.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT\",\"version\":3,\"domain\":null,\"ts\":1673942343610}'
+    '__gads' => 'ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA'
+    '_ga' => 'GA1.1.1810623056.1677205923'
+    'twk_uuid_63f6cf8a4247f20fefe220c1' => '{\"uuid\":\"1.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp\",\"version\":3,\"domain\":null,\"ts\":1677336355764}'
+    '__gpi' => 'UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg'
+    '_gcl_au' => '1.1.305972352.1683187401'
+    'twk_uuid_63fa203531ebfa0fe7ef489d' => '{\"uuid\":\"1.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn\",\"version\":3,\"domain\":null,\"ts\":1683188891592}'
+    '_ga_GNSZR91JYF' => 'GS1.1.1683196293.57.0.1683196293.0.0.0'
+    '_gid' => 'GA1.1.1034550435.1685934869'
+    '_BdSesId' => 'fd3s3g0rl7no6aj1lokqp258a0'
+    '_csrf' => '174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost:90/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_COOKIE' => '__utma=111872281.396585643.1673942342.1673942342.1673942342.1; __utmz=111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); twk_uuid_5d3182cc6d808312283907eb=%7B%22uuid%22%3A%221.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1673942343610%7D; __gads=ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA; _ga=GA1.1.1810623056.1677205923; twk_uuid_63f6cf8a4247f20fefe220c1=%7B%22uuid%22%3A%221.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1677336355764%7D; __gpi=UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg; _gcl_au=1.1.305972352.1683187401; twk_uuid_63fa203531ebfa0fe7ef489d=%7B%22uuid%22%3A%221.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1683188891592%7D; _ga_GNSZR91JYF=GS1.1.1683196293.57.0.1683196293.0.0.0; _gid=GA1.1.1034550435.1685934869; _BdSesId=fd3s3g0rl7no6aj1lokqp258a0; _csrf=174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MongoDB\\Server\\6.0\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\User\\scoop\\shims;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\MongoDB\\Server\\3.4\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17 Server at localhost Port 90</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'SERVER_ADMIN' => 'beta.authentiktravel.es'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/travel_es/index.php'
+    'REMOTE_PORT' => '54922'
+    'REDIRECT_URL' => '/media/video/340_214/Ben-tre-Vietnam.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/media/video/340_214/Ben-tre-Vietnam.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1685958103.3585
+    'REQUEST_TIME' => 1685958103
+]
+2023-06-05 11:41:43 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "media/video/340_214/bavi-ecotour.jpg". in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('media/video/340...', Array)
+#1 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#2 {main}
+2023-06-05 11:41:43 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.396585643.1673942342.1673942342.1673942342.1'
+    '__utmz' => '111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'twk_uuid_5d3182cc6d808312283907eb' => '{\"uuid\":\"1.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT\",\"version\":3,\"domain\":null,\"ts\":1673942343610}'
+    '__gads' => 'ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA'
+    '_ga' => 'GA1.1.1810623056.1677205923'
+    'twk_uuid_63f6cf8a4247f20fefe220c1' => '{\"uuid\":\"1.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp\",\"version\":3,\"domain\":null,\"ts\":1677336355764}'
+    '__gpi' => 'UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg'
+    '_gcl_au' => '1.1.305972352.1683187401'
+    'twk_uuid_63fa203531ebfa0fe7ef489d' => '{\"uuid\":\"1.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn\",\"version\":3,\"domain\":null,\"ts\":1683188891592}'
+    '_ga_GNSZR91JYF' => 'GS1.1.1683196293.57.0.1683196293.0.0.0'
+    '_gid' => 'GA1.1.1034550435.1685934869'
+    '_BdSesId' => 'fd3s3g0rl7no6aj1lokqp258a0'
+    '_csrf' => '174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost:90/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_COOKIE' => '__utma=111872281.396585643.1673942342.1673942342.1673942342.1; __utmz=111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); twk_uuid_5d3182cc6d808312283907eb=%7B%22uuid%22%3A%221.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1673942343610%7D; __gads=ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA; _ga=GA1.1.1810623056.1677205923; twk_uuid_63f6cf8a4247f20fefe220c1=%7B%22uuid%22%3A%221.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1677336355764%7D; __gpi=UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg; _gcl_au=1.1.305972352.1683187401; twk_uuid_63fa203531ebfa0fe7ef489d=%7B%22uuid%22%3A%221.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1683188891592%7D; _ga_GNSZR91JYF=GS1.1.1683196293.57.0.1683196293.0.0.0; _gid=GA1.1.1034550435.1685934869; _BdSesId=fd3s3g0rl7no6aj1lokqp258a0; _csrf=174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MongoDB\\Server\\6.0\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\User\\scoop\\shims;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\MongoDB\\Server\\3.4\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17 Server at localhost Port 90</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'SERVER_ADMIN' => 'beta.authentiktravel.es'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/travel_es/index.php'
+    'REMOTE_PORT' => '54925'
+    'REDIRECT_URL' => '/media/video/340_214/bavi-ecotour.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/media/video/340_214/bavi-ecotour.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1685958103.3645
+    'REQUEST_TIME' => 1685958103
+]
+2023-06-05 11:41:43 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "media/video/340_214/hanoi-vietnam.jpg". in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('media/video/340...', Array)
+#1 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#2 {main}
+2023-06-05 11:41:43 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.396585643.1673942342.1673942342.1673942342.1'
+    '__utmz' => '111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'twk_uuid_5d3182cc6d808312283907eb' => '{\"uuid\":\"1.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT\",\"version\":3,\"domain\":null,\"ts\":1673942343610}'
+    '__gads' => 'ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA'
+    '_ga' => 'GA1.1.1810623056.1677205923'
+    'twk_uuid_63f6cf8a4247f20fefe220c1' => '{\"uuid\":\"1.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp\",\"version\":3,\"domain\":null,\"ts\":1677336355764}'
+    '__gpi' => 'UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg'
+    '_gcl_au' => '1.1.305972352.1683187401'
+    'twk_uuid_63fa203531ebfa0fe7ef489d' => '{\"uuid\":\"1.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn\",\"version\":3,\"domain\":null,\"ts\":1683188891592}'
+    '_ga_GNSZR91JYF' => 'GS1.1.1683196293.57.0.1683196293.0.0.0'
+    '_gid' => 'GA1.1.1034550435.1685934869'
+    '_BdSesId' => 'fd3s3g0rl7no6aj1lokqp258a0'
+    '_csrf' => '174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost:90/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_COOKIE' => '__utma=111872281.396585643.1673942342.1673942342.1673942342.1; __utmz=111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); twk_uuid_5d3182cc6d808312283907eb=%7B%22uuid%22%3A%221.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1673942343610%7D; __gads=ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA; _ga=GA1.1.1810623056.1677205923; twk_uuid_63f6cf8a4247f20fefe220c1=%7B%22uuid%22%3A%221.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1677336355764%7D; __gpi=UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg; _gcl_au=1.1.305972352.1683187401; twk_uuid_63fa203531ebfa0fe7ef489d=%7B%22uuid%22%3A%221.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1683188891592%7D; _ga_GNSZR91JYF=GS1.1.1683196293.57.0.1683196293.0.0.0; _gid=GA1.1.1034550435.1685934869; _BdSesId=fd3s3g0rl7no6aj1lokqp258a0; _csrf=174f505990af527e313f669e7bfe8b2c8ab15f4053146f4377d14af256b9eedaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mCiOdPT-Nly5L6jSEaAaDR4e3vFAQzkK%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MongoDB\\Server\\6.0\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\User\\scoop\\shims;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\MongoDB\\Server\\3.4\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17 Server at localhost Port 90</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'SERVER_ADMIN' => 'beta.authentiktravel.es'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/travel_es/index.php'
+    'REMOTE_PORT' => '54923'
+    'REDIRECT_URL' => '/media/video/340_214/hanoi-vietnam.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/media/video/340_214/hanoi-vietnam.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1685958103.3744
+    'REQUEST_TIME' => 1685958103
+]
+2023-06-05 12:05:02 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#2 {main}
+2023-06-05 12:05:02 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.396585643.1673942342.1673942342.1673942342.1'
+    '__utmz' => '111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'twk_uuid_5d3182cc6d808312283907eb' => '{\"uuid\":\"1.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT\",\"version\":3,\"domain\":null,\"ts\":1673942343610}'
+    '__gads' => 'ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA'
+    '_ga' => 'GA1.1.1810623056.1677205923'
+    'twk_uuid_63f6cf8a4247f20fefe220c1' => '{\"uuid\":\"1.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp\",\"version\":3,\"domain\":null,\"ts\":1677336355764}'
+    '__gpi' => 'UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg'
+    '_gcl_au' => '1.1.305972352.1683187401'
+    'twk_uuid_63fa203531ebfa0fe7ef489d' => '{\"uuid\":\"1.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn\",\"version\":3,\"domain\":null,\"ts\":1683188891592}'
+    '_ga_GNSZR91JYF' => 'GS1.1.1683196293.57.0.1683196293.0.0.0'
+    '_gid' => 'GA1.1.1034550435.1685934869'
+    '_BdSesId' => 'sgfl6o7tfrebth227i68770krs'
+    'language' => '470f1ed863dd05ce855deb748894e20307733fb34f569ad0f4e42212d44d6ba9a:2:{i:0;s:8:\"language\";i:1;s:2:\"en\";}'
+    '_csrf' => '1024da9972790d0cb7e7410465a47c5f5dd8b4fcd84828716fe18ef3bef51393a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7mOuE7Fw3_KeLYBMY2nja0ejgF_TVasR\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost:90/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_COOKIE' => '__utma=111872281.396585643.1673942342.1673942342.1673942342.1; __utmz=111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); twk_uuid_5d3182cc6d808312283907eb=%7B%22uuid%22%3A%221.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1673942343610%7D; __gads=ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA; _ga=GA1.1.1810623056.1677205923; twk_uuid_63f6cf8a4247f20fefe220c1=%7B%22uuid%22%3A%221.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1677336355764%7D; __gpi=UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg; _gcl_au=1.1.305972352.1683187401; twk_uuid_63fa203531ebfa0fe7ef489d=%7B%22uuid%22%3A%221.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1683188891592%7D; _ga_GNSZR91JYF=GS1.1.1683196293.57.0.1683196293.0.0.0; _gid=GA1.1.1034550435.1685934869; _BdSesId=sgfl6o7tfrebth227i68770krs; language=470f1ed863dd05ce855deb748894e20307733fb34f569ad0f4e42212d44d6ba9a%3A2%3A%7Bi%3A0%3Bs%3A8%3A%22language%22%3Bi%3A1%3Bs%3A2%3A%22en%22%3B%7D; _csrf=1024da9972790d0cb7e7410465a47c5f5dd8b4fcd84828716fe18ef3bef51393a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227mOuE7Fw3_KeLYBMY2nja0ejgF_TVasR%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MongoDB\\Server\\6.0\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\User\\scoop\\shims;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\MongoDB\\Server\\3.4\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17 Server at localhost Port 90</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'SERVER_ADMIN' => 'beta.authentiktravel.es'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/travel_es/index.php'
+    'REMOTE_PORT' => '56625'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1685959502.0613
+    'REQUEST_TIME' => 1685959502
+]
+2023-06-05 17:15:44 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.ico". in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('favicon.ico', Array)
+#1 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Página no encontrada. in C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\travel_es\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\travel_es\index.php(35): yii\base\Application->run()
+#2 {main}
+2023-06-05 17:15:44 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '__utma' => '111872281.396585643.1673942342.1673942342.1673942342.1'
+    '__utmz' => '111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'twk_uuid_5d3182cc6d808312283907eb' => '{\"uuid\":\"1.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT\",\"version\":3,\"domain\":null,\"ts\":1673942343610}'
+    '__gads' => 'ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA'
+    '_ga' => 'GA1.1.1810623056.1677205923'
+    'twk_uuid_63f6cf8a4247f20fefe220c1' => '{\"uuid\":\"1.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp\",\"version\":3,\"domain\":null,\"ts\":1677336355764}'
+    '__gpi' => 'UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg'
+    '_gcl_au' => '1.1.305972352.1683187401'
+    'twk_uuid_63fa203531ebfa0fe7ef489d' => '{\"uuid\":\"1.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn\",\"version\":3,\"domain\":null,\"ts\":1683188891592}'
+    '_ga_GNSZR91JYF' => 'GS1.1.1683196293.57.0.1683196293.0.0.0'
+    '_gid' => 'GA1.1.1034550435.1685934869'
+    '_dc_gtm_UA-144553526-1' => '1'
+    '_BdSesId' => 'l1jvh18d7ggme4lk84pfngo25c'
+    '_csrf' => '9196cbd920baafaaeb2d7b213c6168153d1e485792c4409d1ca613c1ccdf4e72a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kpMAIVRLQ_fc7LqPK19c9m-0DJxWDALQ\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'http://localhost:90/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5'
+    'HTTP_COOKIE' => '__utma=111872281.396585643.1673942342.1673942342.1673942342.1; __utmz=111872281.1673942342.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); twk_uuid_5d3182cc6d808312283907eb=%7B%22uuid%22%3A%221.HPwfpKazNbFF9QgURkxE0LPYIN9AVBbSyFz9auvfPBEWoR3jMQ7aJ2cuN4ETbyjVDGTKcOkFJJeD62mCg24JqaKG60UA7e2d3UsiT%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1673942343610%7D; __gads=ID=fda511cfef72cacf-22eeb4ee57d90060:T=1674060000:RT=1674060000:S=ALNI_MbTYFY9JDaeICBlubl1i8LGLqfiyA; _ga=GA1.1.1810623056.1677205923; twk_uuid_63f6cf8a4247f20fefe220c1=%7B%22uuid%22%3A%221.HPwwPDEuulT66vJZlWdx3lXDgINrrseI0qlOwlsQeY0M6CxqwKUtBsQeUUv08lvlNKrlogP4GmHrzh9oI7pQxw8zoo4I0Rel1Q9qp%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1677336355764%7D; __gpi=UID=00000ba79d89cdaa:T=1674060000:RT=1683168147:S=ALNI_MZOBIIhfIJ37FF2YGR6bC4Is68MTg; _gcl_au=1.1.305972352.1683187401; twk_uuid_63fa203531ebfa0fe7ef489d=%7B%22uuid%22%3A%221.HPwxQh5loprb8BH9InG8NStlknfqiZzYCHmXLbCfWv955vWI8x0yYTZnd8HPGigsJ40KvlzLnzyXkKugF1FM0cD15FDwRo4QO6ZRn%22%2C%22version%22%3A3%2C%22domain%22%3Anull%2C%22ts%22%3A1683188891592%7D; _ga_GNSZR91JYF=GS1.1.1683196293.57.0.1683196293.0.0.0; _gid=GA1.1.1034550435.1685934869; _dc_gtm_UA-144553526-1=1; _BdSesId=l1jvh18d7ggme4lk84pfngo25c; _csrf=9196cbd920baafaaeb2d7b213c6168153d1e485792c4409d1ca613c1ccdf4e72a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kpMAIVRLQ_fc7LqPK19c9m-0DJxWDALQ%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MongoDB\\Server\\6.0\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\User\\scoop\\shims;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\MongoDB\\Server\\3.4\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17 Server at localhost Port 90</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.17'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/travel_es'
+    'SERVER_ADMIN' => 'beta.authentiktravel.es'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/travel_es/index.php'
+    'REMOTE_PORT' => '62327'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1685978144.4032
+    'REQUEST_TIME' => 1685978144
+]
