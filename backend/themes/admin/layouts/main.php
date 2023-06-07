@@ -71,7 +71,7 @@ if(Yii::$app->user->getIsGuest()){
 <div class="page-sidebar">
     <div class="page-logo">
         <a href="#" class="page-logo-link press-scale-down d-flex align-items-center position-relative" data-toggle="modal" data-target="#modal-shortcut">
-            <img src="/themes/admin/images/logo-cms.png" alt="authentiktravel.com/" aria-roledescription="logo">
+            <img src="/backend/themes/admin/images/logo-cms.png" alt="authentiktravel.com/" aria-roledescription="logo">
             <span class="page-logo-text mr-1">authentiktravel.com</span>
             <span class="position-absolute text-white opacity-50 small pos-top pos-right mr-2 mt-n2"></span>
         </a>
