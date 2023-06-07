@@ -22,6 +22,8 @@ Thumbs.db
 /common/config
 /common/config/config_db.php
 
+/media
+
 # composer itself is not needed
 composer.phar
 
