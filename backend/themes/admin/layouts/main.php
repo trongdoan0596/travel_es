@@ -84,7 +84,7 @@ if(Yii::$app->user->getIsGuest()){
             	 array('label' => 'Content Manager',
         	            'url' =>array('category/index'),
         	            'options'=>array('class'=>'nav-header'),
-        	            //'template' => '<a href="{url}" class="href_class">{label}</a>',
+        	            'template' => '<a href="javascript:void(0)" class="href_class">{label}</a>',
         	            'items' =>array(
         	                array('label' => 'Category', 'url' =>array('category/index')),
                             array('label' => 'Article', 'url' => array('article/index')),
@@ -94,7 +94,7 @@ if(Yii::$app->user->getIsGuest()){
                  array('label' =>Yii::t('app','Tour'),
         	            'url' =>array('tour/index'),
         	            'options'=>array('class'=>'nav-header'),
-        	            'template' => '<a href="{url}" class="href_class">{label}</a>',
+        	            'template' => '<a href="javascript:void(0)" class="href_class">{label}</a>',
         	            'items' =>array(
                             array('label' => 'Category Tour', 'url' => array('tourcate/index')),
         	                array('label' => 'Tour', 'url' =>array('tour/index')),
@@ -105,7 +105,7 @@ if(Yii::$app->user->getIsGuest()){
                     array('label' => 'Blog',
         	            'url' =>array('blog/index'),
         	            'options'=>array('class'=>'nav-header'),
-        	            'template' => '<a href="{url}" class="href_class">{label}</a>',
+        	            'template' => '<a href="javascript:void(0)" class="href_class">{label}</a>',
         	            'items' =>array(
                             array('label' => 'Category', 'url' => array('blogcate/index')),
         	                array('label' => 'Article', 'url' =>array('blog/index')),
@@ -120,7 +120,7 @@ if(Yii::$app->user->getIsGuest()){
                     array('label' => 'User',
         	            'url' =>array('account/index'),
         	            'options'=>array('class'=>'nav-header'),
-        	            'template' => '<a href="{url}" class="href_class">{label}</a>',
+        	            'template' => '<a href="javascript:void(0)" class="href_class">{label}</a>',
         	            'items' =>array(
         	                        array('label' => 'Account', 'url' => array('account/index')),   
                                     array('label' => 'User Manager', 'url' => array('user/index')), 
@@ -132,7 +132,7 @@ if(Yii::$app->user->getIsGuest()){
                     array('label' => 'Tools ',
         	            'url' =>array('tools/index'),
         	            'options'=>array('class'=>'nav-header'),
-        	            'template' => '<a href="{url}" class="href_class">{label}</a>',
+        	            'template' => '<a href="javascript:void(0)" class="href_class">{label}</a>',
         	            'items' =>array(
                                    //array('label' => 'Attribute group', 'url' => array('attributegroup/index')),
                                    //array('label' => 'Attribute ', 'url' => array('attribute/index')),

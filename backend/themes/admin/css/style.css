@@ -35,6 +35,7 @@ a:hover,a:focus {
  }
 .summary {
     padding-top: 8px;
+    margin-bottom: 15px;
 }
 .glyphicon-trash {
     cursor: pointer;
@@ -92,7 +93,7 @@ a:hover,a:focus {
 }
 #header .bghead {
     height:40px;
-    background-color: #045d09;
+    background-color: #4e4c77;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -460,11 +461,15 @@ div.grid-view .pagination{
     padding-right: 20px;
 }
 /*Login*/
-div.box-login{
+div.box-login {
     border: 1px solid #cccccc;
     padding: 20px;
     width: 350px;
-    height:auto;
+    height: auto;
+    background: #fff;
+    width: 461px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px 0px rgba(74, 53, 107, 0.08);
 }
 div.box-login .head {
     border-bottom: 1px solid #dddddd;
@@ -475,16 +480,16 @@ div.box-login .head {
     background-color: #fff;
     background-image: none;
     border: 1px solid #ccc;
-    border-radius: 4px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
-    color: #555;
-    display: block;
-    font-size: 14px;
-    height: 34px;
-    line-height: 1.42857;
-    padding: 6px 12px;
-    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
-    width: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset !important;
+    color: #555 !important;
+    display: block !important;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s !important;
+    width: 100% !important;
+    height: calc(1.5em + 1.5rem + 2px) !important;
+    padding: 0.75rem 1.5rem !important;
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    border-radius: 4px !important;
 }
 div.footer {
     margin-top:60px;
@@ -525,4 +530,33 @@ div.boxtools .control-group{
     max-width: 100%;
 
     min-height: 1px;        
+}
+.href_class::before {
+    font-family: FontAwesome !important;
+    content: "\f107" !important;
+    position: absolute !important;
+    right: 10px !important;
+    display: block !important;
+    top: 10px !important;
+    font-size: 16px !important;
+    color: #fff !important;
+}
+.nav-menu li > ul{
+    padding: 0 !important;
+}
+.grid-view{
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 0px 0px 13px 0px rgba(74, 53, 107, 0.08);
+    border-radius: 4px;
+}
+table.table.table-striped.table-bordered td{
+    font-size: 13px;
+}
+.btn_login{
+    padding: 0.75rem 1.5rem !important;
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    border-radius: 4px !important;
+    background-color: #2196F3 !important;
 }

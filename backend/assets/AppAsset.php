@@ -30,7 +30,7 @@ class AppAsset extends AssetBundle
         '/css/videojs-hls-player.css',
         '/css/app.bundle.css',
         '/css/vendors.bundle.css',
-        '/css/themes/cust-theme-2.css',
+        '/css/themes/cust-theme-12.css',
     );
     public $js = array(
        // 'themes/web/js/uikit.min.js',

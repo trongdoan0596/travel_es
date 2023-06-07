@@ -70,7 +70,7 @@ echo GridView::widget(array(
                   'template' => '{delete}',//{update} 
              ),
         ),
-         'tableOptions' =>array('class' => 'uk-table uk-table-hover uk-table-striped uk-table-condensed'),
+         'tableOptions' =>array('class' => 'table table-striped table-bordered'),
          'pager' =>array('options' =>array('class' => 'uk-pagination')),
 ));
 ?>

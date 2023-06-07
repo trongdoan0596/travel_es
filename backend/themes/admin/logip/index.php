@@ -51,7 +51,7 @@ echo GridView::widget(array(
                   'template'=>'{delete}',
              ), 
         ),
-     'tableOptions' =>array('class' => 'uk-table uk-table-hover uk-table-striped uk-table-condensed'),
+     'tableOptions' =>array('class' => 'table table-striped table-bordered'),
      'pager' =>array(
         //'firstPageLabel' => 'first',
         //'lastPageLabel' => 'last',
