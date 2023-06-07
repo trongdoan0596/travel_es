@@ -25,12 +25,12 @@ class AppAsset extends AssetBundle
         'css/site.css?v=1.0',
         'css/notifications/toastr/toastr.css',
         '/assets/global/plugins/select2/select2.css',
-        '/css/formplugins/bootstrap-daterangepicker/bootstrap-daterangepicker.css',
-        '/css/default_skin.css',
-        '/css/videojs-hls-player.css',
-        '/css/app.bundle.css',
-        '/css/vendors.bundle.css',
-        '/css/themes/cust-theme-12.css',
+        'css/formplugins/bootstrap-daterangepicker/bootstrap-daterangepicker.css',
+        'css/default_skin.css',
+        'css/videojs-hls-player.css',
+        'css/app.bundle.css',
+        'css/vendors.bundle.css',
+        'css/themes/cust-theme-12.css',
     );
     public $js = array(
        // 'themes/web/js/uikit.min.js',
