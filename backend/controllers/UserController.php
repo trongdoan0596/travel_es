@@ -15,47 +15,47 @@ use common\components\AccessRule;
 use common\models\Log;
 class UserController extends Controller {
     public $layout='main';
-    public function behaviors() {
-        return array(
-            'access' =>  array(
-                'class' => AccessControl::className(),
-                'ruleConfig' => array(
-                                    'class' => AccessRule::className(),
-                                ),
-                'only' => array('index','create','update','myupdate'),
-                'rules' => array(
-                   array(
-                        'actions' => array('error'),
-                        'allow' => true,
-                    ),
-                    array(
-                        'actions' =>array('index','myupdate'),
-                        'allow' => true,
-                        'roles' =>array('@'),
-                    ),
-                    array(
-                        'actions' =>array('create','update'),
-                        'allow' => true,
-                        'roles' =>array(User::ROLE_ADMIN),
-                    ), 
-                  /*  array(
-                        'actions' =>array('delete'),
-                        'allow' => true,
-                        'roles' =>array(User::ROLE_ADMIN),
-                    ), */
-                ),
-               // 'denyCallback' => function ($rule, $action) {
-                 //   throw new \Exception('You are not allowed to access this page');
-              //  }
-            ),
-            'verbs' => array(
-                'class' => VerbFilter::className(),
-                'actions' =>  array(
-                    'logout' => array('post'),
-                ),
-            ),
-        );
-    }
+    // public function behaviors() {
+    //     return array(
+    //         'access' =>  array(
+    //             'class' => AccessControl::className(),
+    //             'ruleConfig' => array(
+    //                                 'class' => AccessRule::className(),
+    //                             ),
+    //             'only' => array('index','create','update','myupdate'),
+    //             'rules' => array(
+    //                array(
+    //                     'actions' => array('error'),
+    //                     'allow' => true,
+    //                 ),
+    //                 array(
+    //                     'actions' =>array('index','myupdate'),
+    //                     'allow' => true,
+    //                     'roles' =>array('@'),
+    //                 ),
+    //                 array(
+    //                     'actions' =>array('create','update'),
+    //                     'allow' => true,
+    //                     'roles' =>array(User::ROLE_ADMIN),
+    //                 ), 
+    //               /*  array(
+    //                     'actions' =>array('delete'),
+    //                     'allow' => true,
+    //                     'roles' =>array(User::ROLE_ADMIN),
+    //                 ), */
+    //             ),
+    //            // 'denyCallback' => function ($rule, $action) {
+    //              //   throw new \Exception('You are not allowed to access this page');
+    //           //  }
+    //         ),
+    //         'verbs' => array(
+    //             'class' => VerbFilter::className(),
+    //             'actions' =>  array(
+    //                 'logout' => array('post'),
+    //             ),
+    //         ),
+    //     );
+    // }
 
     public function actions()  {
         return array(
