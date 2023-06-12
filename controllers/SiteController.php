@@ -88,6 +88,7 @@ class SiteController extends Controller {
     public function actionContactus() {
         $model = new ContactForm();
         $post  = Yii::$app->request->post();
+
         $this->view->title = Yii::t('app', 'Contactar con Authentik Travel');
 	    if($model->load($post)) {  
             $model->attributes  = $post['ContactForm'];
@@ -96,7 +97,7 @@ class SiteController extends Controller {
             if($mess!=''){
               $nummess = explode(" ",$mess);
             } 
-            
+           
             $booktour = new Booktour();
             if(strpos($model->mess,'http://')!== false || strpos($model->mess,'https://')!== false ){
                 //spam , thong tin khong hop le
@@ -173,6 +174,35 @@ class SiteController extends Controller {
                     $model->SendEmailConfirm($model,0);   
                     $msg1 = Yii::t('app', 'Muchas gracias por mandar tu petición a Authentik Travel! <br />Nuestro equipo te responderá dentro de 12 – 24 hrs.');
                     $msg = $msg1.$msg2;
+
+                    //chatbot telegram
+                    $token = '5979049888:AAH3moIXs-ahuYbg_CN27Pwp5Z5ORQBuOgs';
+                    $link = 'https://api.telegram.org:443/bot'.$token.'';
+                     
+                    $getupdate = file_get_contents($link.'/getUpdates');
+                    $responsearray = json_decode($getupdate, TRUE);
+               
+                    $chatid = $responsearray['result'][0]['my_chat_member']['chat']['id'];
+                    $message = '
+                    Contact:
+                    Giới tính: '. $post['ContactForm']['slcgender'] .'
+                    Họ và tên: '. $post['ContactForm']['title'] .'
+                    Quốc tịch: '.  $post['ContactForm']['nationality'] .'
+                    Số điện thoại: '.  $post['ContactForm']['phone'] .'
+                    Email: '.  $post['ContactForm']['email'] .'
+                    Skype: '.  $post['ContactForm']['skype'] .'
+                    Whatsapp: '.  $post['ContactForm']['whatsapp'] .'
+                    Viber: '.  $post['ContactForm']['viber'] .'
+                    Nội dung: '.  $post['ContactForm']['mess'] .'
+                    ';
+                    $parameter = array(
+                            'chat_id' => $chatid, 
+                            'text' => $message
+                            );
+                    $request_url = $link.'/sendMessage?'.http_build_query($parameter); 
+                    file_get_contents($request_url);
+                    //end chatbot telegram
+
                     return $this->render('msg',array('msg'=>$msg,'model'=>$model,'booktour'=>$booktour)); 
                 }
             }    
