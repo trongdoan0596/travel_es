@@ -184,7 +184,7 @@ class SiteController extends Controller {
                     // $chatid = $responsearray['result'][0]['my_chat_member']['chat']['id'];
 
                     $message = 
-                        "<strong>Nguồn: Form liên hệ</strong>\n\n".
+                        "<strong>Nguồn: Form liên hệ</strong>\n".
                         '<strong>Giới tính:</strong> ' . $post['ContactForm']['slcgender'] . "\n".
                         '<strong>Họ và tên:</strong> ' . $post['ContactForm']['title'] . "\n".
                         '<strong>Quốc tịch:</strong> ' . $post['ContactForm']['nationality'] . "\n".
@@ -194,7 +194,7 @@ class SiteController extends Controller {
                         '<strong>Whatsapp:</strong> ' . $post['ContactForm']['whatsapp'] . "\n".
                         '<strong>Viber:</strong> ' . $post['ContactForm']['viber'] . "\n".
                         '<strong>Nội dung:</strong> ' . $post['ContactForm']['mess'] . "\n".
-                        '<a href="https://authentiktravel.com/backend/booktour/update/'. $booktour->id .'">Quản trị</a>' . "\n";
+                        '<a href="https://authentiktravel.es/backend/booktour/update/'. $booktour->id .'">Quản trị</a>' . "\n";
                     $parameter = array(
                             'chat_id' => '-1001717408228',//$chatid, 
                             'parse_mode' => 'HTML',
