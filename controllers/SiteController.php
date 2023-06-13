@@ -178,7 +178,7 @@ class SiteController extends Controller {
                     //chatbot telegram
                     $token = '5979049888:AAH3moIXs-ahuYbg_CN27Pwp5Z5ORQBuOgs';
 
-                    // $link = 'https://api.telegram.org:443/bot'.$token.'';
+                    $link = 'https://api.telegram.org:443/bot'.$token.'';
                     // $getupdate = file_get_contents($link.'/getUpdates');
                     // $responsearray = json_decode($getupdate, TRUE);
                     // $chatid = $responsearray['result'][0]['my_chat_member']['chat']['id'];
