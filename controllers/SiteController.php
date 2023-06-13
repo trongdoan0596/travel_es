@@ -177,28 +177,30 @@ class SiteController extends Controller {
 
                     //chatbot telegram
                     $token = '5979049888:AAH3moIXs-ahuYbg_CN27Pwp5Z5ORQBuOgs';
-                    $link = 'https://api.telegram.org:443/bot'.$token.'';
-                     
-                    $getupdate = file_get_contents($link.'/getUpdates');
-                    $responsearray = json_decode($getupdate, TRUE);
-               
-                    $chatid = $responsearray['result'][0]['my_chat_member']['chat']['id'];
-                    $message = '
-                    Contact:
-                    Giới tính: '. $post['ContactForm']['slcgender'] .'
-                    Họ và tên: '. $post['ContactForm']['title'] .'
-                    Quốc tịch: '.  $post['ContactForm']['nationality'] .'
-                    Số điện thoại: '.  $post['ContactForm']['phone'] .'
-                    Email: '.  $post['ContactForm']['email'] .'
-                    Skype: '.  $post['ContactForm']['skype'] .'
-                    Whatsapp: '.  $post['ContactForm']['whatsapp'] .'
-                    Viber: '.  $post['ContactForm']['viber'] .'
-                    Nội dung: '.  $post['ContactForm']['mess'] .'
-                    ';
+
+                    // $link = 'https://api.telegram.org:443/bot'.$token.'';
+                    // $getupdate = file_get_contents($link.'/getUpdates');
+                    // $responsearray = json_decode($getupdate, TRUE);
+                    // $chatid = $responsearray['result'][0]['my_chat_member']['chat']['id'];
+
+                    $message = 
+                        "<strong>Nguồn: Form liên hệ</strong>\n\n".
+                        '<strong>Giới tính:</strong> ' . $post['ContactForm']['slcgender'] . "\n".
+                        '<strong>Họ và tên:</strong> ' . $post['ContactForm']['title'] . "\n".
+                        '<strong>Quốc tịch:</strong> ' . $post['ContactForm']['nationality'] . "\n".
+                        '<strong>Số điện thoại:</strong> ' . $post['ContactForm']['phone'] . "\n".
+                        '<strong>Email:</strong> <a href="mailto:' . $post['ContactForm']['email'] . '"> ' . $post['ContactForm']['email'] . "</a>\n".
+                        '<strong>Skype:</strong> ' . $post['ContactForm']['skype'] . "\n".
+                        '<strong>Whatsapp:</strong> ' . $post['ContactForm']['whatsapp'] . "\n".
+                        '<strong>Viber:</strong> ' . $post['ContactForm']['viber'] . "\n".
+                        '<strong>Nội dung:</strong> ' . $post['ContactForm']['mess'] . "\n".
+                        '<a href="https://authentiktravel.com/backend/booktour/update/'. $booktour->id .'">Quản trị</a>' . "\n";
                     $parameter = array(
                             'chat_id' => '-1001717408228',//$chatid, 
+                            'parse_mode' => 'HTML',
                             'text' => $message
                             );
+
                     $request_url = $link.'/sendMessage?'.http_build_query($parameter); 
                     file_get_contents($request_url);
                     //end chatbot telegram
