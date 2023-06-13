@@ -196,7 +196,7 @@ class SiteController extends Controller {
                     Nội dung: '.  $post['ContactForm']['mess'] .'
                     ';
                     $parameter = array(
-                            'chat_id' => $chatid, 
+                            'chat_id' => '-1001717408228',//$chatid, 
                             'text' => $message
                             );
                     $request_url = $link.'/sendMessage?'.http_build_query($parameter); 
