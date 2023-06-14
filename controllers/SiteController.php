@@ -58,7 +58,7 @@ class SiteController extends Controller {
         return parent::beforeAction($action);
     }
     public function actionIndex(){ 
-        $baseurl = Url::base(true);//https://authentiktravel.es/';
+        $baseurl = Url::base(true);//https://authentiktravel.es///';
         $title   = 'Viajes en privado con agencia local en Vietnam';
         $this->view->title = $title; 
         $this->view->registerMetaTag(array('name'=>'keywords','content'=>'Tours en privado Vietnam, Agencia de viaje, tours Vietnam, Tour Vietnam, tours en privado Myanmar, Agencia de viaje Myanmar, Tours Myanmar,Tour Myanmar.'));  
