@@ -53,6 +53,21 @@ echo GridView::widget(array(
                 }, 
                // 'filter'=>array("0"=>"No","1"=>"Yes"),            
             ),
+            array(
+                'attribute' => 'ip',
+            ),
+            array(
+                'label' => 'Device',
+                'attribute' => 'is_mobile',
+                'value' => function($data) {
+                    if($data->is_mobile == 0)
+                        return 'Web';
+                    else if($data->is_mobile == 1)
+                        return 'Mobi';
+                    else
+                        return 'Tablet';
+                }
+            ),
            /* array(
                 'label'=>'Show Tour',
                 'attribute'=>'is_tour',

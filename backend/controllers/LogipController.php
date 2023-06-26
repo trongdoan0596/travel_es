@@ -47,11 +47,11 @@ class LogipController extends Controller {
          $user_id = Yii::$app->user->identity->id;
          $model = new Logip();   
          $dataProvider = $model->search(Yii::$app->request->get()); 
-         if($user_id==3){
+        //  if($user_id==3){
             return $this->render('index',array('model' =>$model,'dataProvider' => $dataProvider));
-         }else{ 
-           return $this->redirect(array('category/index')); 
-         }
+        //  }else{ 
+        //    return $this->redirect(array('category/index')); 
+        //  }
          
         
  }

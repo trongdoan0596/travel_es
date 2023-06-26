@@ -25,6 +25,7 @@ use yii\helpers\Url;
  * @property string  $create_date
  * @property integer $user_id
  * @property integer $user_modify 
+ * @property integer $position 
  */
 class Video extends ActiveRecord { 
     
@@ -41,7 +42,7 @@ class Video extends ActiveRecord {
              array(
                   array('id','title','alias','url','embedcode','introtxt','fulltxt','ordering',
                          'img','status','metakey','metadesc','featured','last_update','create_date',
-                         'user_id','user_modify'
+                         'user_id','user_modify','position'
                        ),
                   'safe'
              ),
@@ -61,10 +62,12 @@ class Video extends ActiveRecord {
 			'status' => 'Status',
 			'metakey' => 'Meta Key',
 			'metadesc' => 'Meta Desc(max :160 char)',		
-            'ordering'=>'Ordering',
-            'featured' => 'Featured',
-            'last_update'=>'Last update',
-            'create_date'=>'Create date'
+      'ordering'=>'Ordering',
+      'featured' => 'Featured',
+      'last_update'=>'Last update',
+      'create_date'=>'Create date',
+      'position'  => 'Position show home'
+
 		);
     }
 public function search($params) {
@@ -91,6 +94,9 @@ public function search($params) {
         }       
         if($this->status !=''){
                $query->andWhere('status = "'.$this->status.'"');
+        }  
+        if($this->position !=''){
+          $query->andWhere('position = "'.$this->position.'"');
         }  
     return $dataProvider;
  }
@@ -120,7 +126,7 @@ public function search($params) {
         if($fields!=''){$sql->select($fields);}        
         $sql->where('status =:status',array(':status' => 1));        
         if($limit>0) $sql->limit($limit);
-        $sql->orderBy($orderby);
+        $sql->orderBy('position asc');
         $result= $sql->all();
         return $result;
 }  

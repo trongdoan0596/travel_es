@@ -30,7 +30,7 @@ use app\widgets\slidebg\slidesub\Slidesub;
                      <div class="uk-width-1-1" style="padding: 15px;">
                         <h2>Authentik Vietnam Co.,Ltd</h2>
                          <ul class="uk-grid contactbox">
-                              <li class="address-footer"><label><i class="uk-icon-home uk-icon-small"></i></label><font style="padding-left:0px;margin-top: -30px;">3 Phan Huy Ích, Nguyễn Trung Trực, <br />Ba Dinh District, Hà Nội, Vietnam (4e étage).</font></li>   
+                              <li class="address-footer"><label><i class="uk-icon-home uk-icon-small"></i></label><font style="padding-left:0px;margin-top: -30px;">62 Yen Phu road, Nguyen Trung Truc ward, Ba Dinh district, Ha Noi, Vietnam.</font></li>   
                               <li><label><i class="uk-icon-phone uk-icon-small"></i></label>+84 (0) 24 39 27 11 99 / <font style="padding-bottom: 10px;">+84 (0) 24 62 90 55 99</font></li> 
                               <li><label><i class="uk-icon-mobile-phone uk-icon-small"></i></label>+84 (0) 91 2 12 10 91</li>                   
                               <li><label><a href="skype:authentikvietnam?call"><i class="uk-icon-skype uk-icon-small"></i></label>Authentikvietnam</a></li>
@@ -44,7 +44,7 @@ use app\widgets\slidebg\slidesub\Slidesub;
                        <font class="title titleoffice"><?php echo Yii::t('app','Saturday');?>: </font>	8h30 AM to 12 AM
                      </div> 
                      <div class="mapright">
-                         <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="348"  height="344" src="https://maps.google.com/maps?hl=vi&q=Số 3 Phan Huy Ích, Nguyễn Trung Trực, Ba Đình, Hà Nội&ie=UTF8&t=roadmap&z=15&iwloc=B&output=embed"></iframe>
+                         <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="348"  height="344" src="https://maps.google.com/maps?hl=vi&q=62 Yen Phu road, Nguyen Trung Truc ward, Ba Dinh district, Ha Noi, Vietnam&ie=UTF8&t=roadmap&z=15&iwloc=B&output=embed"></iframe>
                       </div>
                    </div>
                 </div>

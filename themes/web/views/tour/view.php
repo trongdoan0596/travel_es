@@ -87,7 +87,7 @@ if(!empty($details)){
             <div class="serviceinclude" style="background: white;">
                   <h5 style="background: white;border-bottom: 0px !important; height: 30px !important; "><?php echo Yii::t('app','Precio del tour en privado');?></h5>                 
                   <div class="content">
-                   <p align="center"><?php echo Yii::t('app','Los precios están cotizados en USD y por persona (Habitación twin/doble compartida - Alojamiento de 3 estrellas) <br />Válido hasta el 31 de Diciembre 2018');?></p>
+                   <?= $model->private_tour_price ?>
                    <table class="uk-table tablepax">                  
                         <tbody>
                             <tr>

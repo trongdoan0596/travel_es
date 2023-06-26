@@ -16,13 +16,18 @@ echo Menu::widget(array(
     ),
     'options'=>array('class'=>'nav nav-tabs'),
 ));
+?>
 
+<button class="btn btn-danger delete_list_cm my-3" style="width: max-content">Delete</button>
+
+<?php
 echo GridView::widget(array(
     'dataProvider' => $dataProvider,
     'filterModel' => $model,
     'id'=>'gridComment',// ID to grid wrapper
     'columns' => array(    
             //array('class' => 'yii\grid\SerialColumn'),
+            ['class' => 'yii\grid\CheckboxColumn'],
             array(
                 'attribute' => 'id',  
                 'headerOptions' =>array('style'=>'width:6%;text-align:center;'),
@@ -87,3 +92,34 @@ echo GridView::widget(array(
          'pager' =>array('options' =>array('class' => 'uk-pagination')),        
 ));
 ?>
+
+<script>
+    $(document).ready(function(){
+        $(document).on('click','.delete_list_cm', function(){
+            var list_id = $('#gridComment').yiiGridView('getSelectedRows');
+            console.log(list_id.length)
+            if(list_id.length > 0){
+                if(confirm("Bạn có trắc chắn muốn xóa comment?")){
+                    $.ajax({
+                        url: '/backend/comment/index',
+                        type: 'post',
+                        data: {delete_list_id:list_id},
+                        success: function(data) {                 
+                            if(data == 1){
+                                location.reload();
+                            }else{
+                                alert('Có lỗi vui lòng thử lại!')
+                            }
+                        }
+                });
+                }
+                else{
+                    return false;
+                }
+            }else{
+                alert('Bạn chưa chọn comment!')
+            }
+            console.log(list_id)
+        });
+    });
+</script>

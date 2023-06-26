@@ -54,6 +54,14 @@ echo GridView::widget(array(
                 },                           
             ),    
             array(
+                'attribute' => 'position',
+                'label'=>'Position show home',
+                'format' => 'raw',
+                'value'=>function ($data) {
+                      return Html::a(Html::encode($data->position != 9999 ? $data->position : null),array('id'=>$data->id,'update'));
+                 },
+             ),
+            array(
                  'class' => 'yii\grid\ActionColumn',
                  'headerOptions' =>array('style'=>'width:3%;text-align: center;'),
                  'template' =>'{delete}',

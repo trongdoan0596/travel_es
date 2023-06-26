@@ -46,10 +46,9 @@ use yii\helpers\Url;
             </div>
              <div class="uk-width-1-4">
                <ul class="uk-grid">
-                  <li style="height:70px;" class="address-footer"><i class="uk-icon-home uk-icon-small"></i> <?php echo Yii::t('app','3 Phan Huy Ich, Nguyen Trung Truc, Distrito Ba Dinh, Ha Noi, Vietnam (4ª planta)');?>.</li>   
+                  <li style="height:70px;" class="address-footer"><i class="uk-icon-home uk-icon-small"></i> <?php echo Yii::t('app','Room 406, 4th floor, 62 Yen Phu road, Nguyen Trung Truc ward, Ba Dinh district, Ha Noi, Vietnam');?>.</li>   
                   <li style="margin-bottom: 14px;"><i class="uk-icon-phone uk-icon-small"></i>+84 (0) 24 39 27 11 99 or <br /><font style="padding-left: 18px;padding-bottom: 10px;"> +84 (0) 24 62 90 55 99</font></li> 
-                  <li style="height:50px;" ><i class="uk-icon-mobile-phone uk-icon-small"></i>+34653143254 (Whatsapp/viber)</li>                   
-                  <li><a href="skype:sales@authentiktravel.com?call"><i class="uk-icon-skype uk-icon-small"></i>Skype: sales@authentiktravel.com</a></li>
+                  <li style="height:50px;" ><i class="uk-icon-mobile-phone uk-icon-small"></i>+84912121091 (Whatsapp/viber)</li>                   
                   <li><a href="mailto:es@authentiktravel.com"><i class="uk-icon-envelope-o"></i>es@authentiktravel.com</a></li>
                   <li><i class="internet"></i> &nbsp;&nbsp;<a href="<?php echo Yii::$app->homeUrl;?>" target="_blank">www.authentiktravel.es</a></li>
                   <li style="display: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo Yii::$app->homeUrl;?>sitemap.html" target="_blank">Sitemap</a></li>

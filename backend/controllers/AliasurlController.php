@@ -37,11 +37,11 @@ class AliasurlController extends Controller {
     }  
  public function beforeAction($event){
         $user_id = Yii::$app->user->identity->id;
-        if($user_id==2 || $user_id==3 ){
+        // if($user_id==2 || $user_id==3 ){
             return true;
-        }else{
-            $this->redirect(['site/permission']);
-        }
+        // }else{
+        //     $this->redirect(['site/permission']);
+        // }
  }
  public function actionIndex() {      
          $model = new Aliasurl();

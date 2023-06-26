@@ -49,6 +49,11 @@ use yii\helpers\Url;
                         <?php } ?>
                       </div>
             </div>   
+            <div class="control-group">
+                <div class="controls" >
+                    <?php echo $form->field($model,'position')->textInput(array('class' => 'form-control')); ?>
+                </div>
+            </div>  
      </div>
 </div>
 <div class="control-group">

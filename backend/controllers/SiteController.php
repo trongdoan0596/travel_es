@@ -90,7 +90,7 @@ public function actionUploadimg() {
         $url  = Yii::$app->urlManager->createAbsoluteUrl('/media/ckeditor/'.$file);
         $url  = str_replace("backend/", "",$url);
         $uploadPath = substr(Yii::$app->basePath,0,-7).'media/ckeditor/'.$file; //Yii::getAlias('@webroot').'/media/ckeditor/'.$file;
-        //extensive suitability check before doing anything with the file…
+        //extensive suitability check before doing anything with the fileï¿½
         if ($uploadedFile==null){
            $message = "No file uploaded.";
         }else if ($uploadedFile->size == 0) {

@@ -174,6 +174,20 @@ use dosamigos\ckeditor\CKEditor;
            ?> 
         </div>
 </div>
+<div class="control-group">
+        <div class="controls">
+          <?php 
+           echo $form->field($model,'private_tour_price')->widget(CKEditor::className(),array( 
+                       'options' => array('rows' =>6),
+                       'preset' => 'base', //advanced basic standard full
+                       'clientOptions' => array(
+                            'filebrowserUploadUrl' =>'../site/uploadimg',
+                            'extraPlugins' => 'justify,iframe,flash'
+                        )
+                     ));
+           ?> 
+        </div>
+</div>
 <script>
 function DelImgMain(tour_id,idimg){    
     //idimg = 1,2,3,4 = imgmap

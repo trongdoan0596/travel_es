@@ -3,7 +3,7 @@ namespace backend\controllers;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
-use common\models\Banner;//load models tu thu muc common , n?u load t? thu muc c?a app : app\models\Article;
+use common\models\AuBannerHome;//load models tu thu muc common , n?u load t? thu muc c?a app : app\models\Article;
 use yii\filters\VerbFilter;
 use yii\helpers\Url;
 use yii\web\UploadedFile;
@@ -45,13 +45,13 @@ class BannerController extends Controller {
     }
 
  public function actionIndex() {
-         $model = new Banner();   
+         $model = new AuBannerHome();   
          $dataProvider = $model->search(array());
         return $this->render('index',array('model' => $model,'dataProvider' => $dataProvider));
     }
   //create
   public function actionCreate() {
-        $model = new Banner();
+        $model = new AuBannerHome();
         $post  = Yii::$app->request->post();
 	    if ($model->load($post)) {  
             $model->attributes  = $post['Banner'];
