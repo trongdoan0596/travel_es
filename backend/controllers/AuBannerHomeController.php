@@ -72,7 +72,7 @@ class AuBannerHomeController extends Controller
                 $path         = substr(Yii::$app->basePath,0,-7).'/media/banner/'; 
                 $file_name = "video_".rand();
                 $model->path->saveAs($path.$file_name.'.'.$model->path->extension);
-                $model->path = $path.$file_name.'.'.$model->path->extension;
+                $model->path = '/media/banner/'.$file_name.'.'.$model->path->extension;
             }
             $model->save();
             return $this->redirect(['index', 'id' => $model->id]);
