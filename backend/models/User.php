@@ -75,17 +75,21 @@ class User extends ActiveRecord implements IdentityInterface {
             'role'=>'Role'
         );
     }   
+
     public static function findIdentity($id){        
-         return static::findOne(array('id' => $id, 'status' => self::STATUS_ACTIVE,'role' =>array('roleam' =>self::ROLE_ADMIN,'rolemt' =>self::ROLE_MARKETING)));
+        //  return static::findOne(array('id' => $id, 'status' => self::STATUS_ACTIVE,'role' =>array('roleam' =>self::ROLE_ADMIN)));
+         return static::findOne(array('id' => $id, 'status' => self::STATUS_ACTIVE));
     }
 
 /* modified */
     public static function findIdentityByAccessToken($token, $type = null){
-          return static::findOne(array('access_token' => $token,'role' =>array('roleam' =>self::ROLE_ADMIN,'rolemt' =>self::ROLE_MARKETING)));
+        //   return static::findOne(array('access_token' => $token,'role' =>array('roleam' =>self::ROLE_ADMIN)));
+          return static::findOne(array('access_token' => $token));
     }
 
     public static function findByUsername($username){
-        return static::findOne(array('username' => $username, 'status' => self::STATUS_ACTIVE, 'role' =>array('roleam' =>self::ROLE_ADMIN,'rolemt' =>self::ROLE_MARKETING)));
+        // return static::findOne(array('username' => $username, 'status' => self::STATUS_ACTIVE, 'role' =>array('roleam' =>self::ROLE_ADMIN)));
+        return static::findOne(array('username' => $username, 'status' => self::STATUS_ACTIVE));
     }
 
     /**

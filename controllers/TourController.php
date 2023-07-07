@@ -639,6 +639,34 @@ use yii\helpers\Url;
                  $booktour->is_mobile = 2;//la Tablet
             }
             if ($booktour->save(false)) {
+               //chatbot telegram
+               $token = '5979049888:AAH3moIXs-ahuYbg_CN27Pwp5Z5ORQBuOgs';
+
+               $link = 'https://api.telegram.org:443/bot'.$token.'';
+               // $getupdate = file_get_contents($link.'/getUpdates');
+               // $responsearray = json_decode($getupdate, TRUE);
+               // $chatid = $responsearray['result'][0]['my_chat_member']['chat']['id'];
+
+               $message = 
+               "<strong>Nguồn: Form Tour</strong>\n".
+               '<strong>Người tham gia:</strong> người lớn ' . $post['CustomizeForm']['number_adults'] .', trẻ em: '. $post['CustomizeForm']['number_children']."\n".
+               '<strong>Độ dài chuyến đi:</strong> ' . $post['CustomizeForm']['number_nights'] . "\n".
+               '<strong>Tin nhắn:</strong> ' . $post['CustomizeForm']['descriptiontxt'] . "\n".
+               '<strong>Gới tính:</strong> ' . $post['CustomizeForm']['slcgender'] . "\n".
+               '<strong>Họ và tên:</strong> ' . $post['CustomizeForm']['firstname'] .' '. $post['CustomizeForm']['firstname'] . "\n".
+               '<strong>Quốc gia:</strong> ' . $post['CustomizeForm']['nationality'] . "\n".
+               '<strong>Số điện thoại:</strong> ' . $post['CustomizeForm']['phone'] . "\n".
+               '<strong>Email:</strong> <a href="mailto:' . $post['CustomizeForm']['email'] . '"> ' . $post['CustomizeForm']['email'] . "</a>\n";
+               $parameter = array(
+                        'chat_id' => '-1001717408228',//$chatid, 
+                        'parse_mode' => 'HTML',
+                        'text' => $message
+                        );
+
+               $request_url = $link.'/sendMessage?'.http_build_query($parameter); 
+               file_get_contents($request_url);
+               //end chatbot telegram
+               
                 //co nen tao thong tin khach hang luon ko ,neu chua co tao moi,
                 // neu co roi thi gan thong cho user dua vao cai' gi ,email hay phone               
                 //gui email cho khach

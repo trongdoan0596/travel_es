@@ -78,75 +78,140 @@ if(Yii::$app->user->getIsGuest()){
     </div>
       <div class="boxleft">
      <?php        
+        $role = Yii::$app->user->identity->role;
+        $conten_manager = array('label' => 'Content Manager',
+            'url' =>array('category/index'),
+            'options'=>array('class'=>'nav-header'),
+            //'template' => '<a href="{url}" class="href_class">{label}</a>',
+            'template' => '<a href="javascript:void(0)" class="href_class">{label}</a>',
+            'items' =>array(
+                array('label' => 'Category', 'url' =>array('category/index')),
+                array('label' => 'Article', 'url' => array('article/index')),
+                array('label' => 'Banner Home', 'url' => array('au-banner-home/index')),
+                // array('label' => 'Banner', 'url' => array('banner/index')),   
+            )        
+        );
+        $tour = array('label' =>Yii::t('app','Tour'),
+            'url' =>array('tour/index'),
+            'options'=>array('class'=>'nav-header'),
+            'template' => '<a href="javascript:void(0)" class="href_class">{label}</a>',
+            'items' =>array(
+                array('label' => 'Category Tour', 'url' => array('tourcate/index')),
+                array('label' => 'Tour', 'url' =>array('tour/index')),
+                array('label' => 'Book Tour','class'=>'nav-header','url' =>array('booktour/index')), 
+                array('label' => 'Destination', 'url' =>array('destination/index')),       	               
+            )        
+        );
+        $blog = array('label' => 'Blog',
+            'url' =>array('blog/index'),
+            'options'=>array('class'=>'nav-header'),
+            'template' => '<a href="javascript:void(0)" class="href_class">{label}</a>',
+            'items' =>array(
+                array('label' => 'Category', 'url' => array('blogcate/index')),
+                array('label' => 'Article', 'url' =>array('blog/index')),
+            )        
+        );
+        $cotravel = array('label' => 'Cotravel', 'url' => array('cotravel/index'));
+        $review = array('label' => 'Review', 'url' => array('review/index'));
+        $video = array('label' => 'Video', 'url' => array('video/index'));
+        $comment = array('label' => 'Comments', 'url' => array('comment/index'));
+        $ourteam = array('label' => 'Ourteam', 'url' => array('ourteam/index'));
+        $image_lib = array('label' => 'Image Lib', 'url' => array('itemimg/index'));
+        $user = array('label' => 'User',
+            'url' =>array('account/index'),
+            'options'=>array('class'=>'nav-header'),
+            'template' => '<a href="javascript:void(0)" class="href_class">{label}</a>',
+            'items' =>array(
+                        array('label' => 'Account', 'url' => array('account/index')),   
+                        array('label' => 'User Manager', 'url' => array('user/index')), 
+                        //array('label' => 'Sales', 'url' => array('sales/index')),     
+                )        
+            );
+        $menu = array('label' => 'Menu', 'url' =>array('menu/index'));
+        $newsletters = array('label' => 'Newsletters', 'url' =>array('newsletters/index'));
+        $tool = array('label' => 'Tools ',
+            'url' =>array('tools/index'),
+            'options'=>array('class'=>'nav-header'),
+            'template' => '<a href="javascript:void(0)" class="href_class">{label}</a>',
+            'items' =>array(
+                        //array('label' => 'Attribute group', 'url' => array('attributegroup/index')),
+                        //array('label' => 'Attribute ', 'url' => array('attribute/index')),
+                        array('label' => 'Countrys', 'url' => array('country/index')),
+                        array('label' => 'Regions', 'url' => array('region/index')),  
+                        array('label' => 'Districts', 'url' => array('district/index')),   
+                        array('label' => 'Tools ', 'url' => array('tools/index')),
+                        array('label' => 'Alias Url ', 'url' => array('aliasurl/index')),
+                        array('label' => 'Log', 'url' => array('log/index')), 
+                        array('label' => 'IP', 'url' => array('logip/index')),         
+                        //array('label' => 'Sitemap ', 'url' => array('../tools/cronsitemap.php?key=d1MyuomRffghe323')),
+                )        
+            );
+        if($role == 2){ //Manager
+            $cotravel = null;
+            $review = null;
+            $video = null;
+            $comment = null;
+            $ourteam = null;
+            $image_lib = null;
+            $user = null;
+            $menu = null;
+            $newsletters = null;
+            $tool = null;
+        }
+        if($role == 3){ //sale
+            $conten_manager = null;     
+            $tour = null;
+            $blog = null;
+            $cotravel = null;
+            $review = null; 
+            $video = null; 
+            $ourteam = null;
+            $image_lib = null;
+            $menu = null;   
+            $newsletters = null;                
+            $tool = null;  
+        }
+        if($role == 4){ //input nhap lieu
+            $conten_manager= null;     
+            $cotravel= null;
+            $review= null; 
+            $comment= null; 
+            $ourteam= null;
+            $image_lib= null;
+            $user= null;
+            $menu= null;   
+            $newsletters= null;                
+            $tool= null;   
+        }
+        if($role == 5){ //input nhap lieu
+            $conten_manager= null;     
+            $tour= null;
+            $blog= null;
+            $cotravel= null;
+            $review= null; 
+            $video= null; 
+            $ourteam= null;
+            $image_lib= null;
+            $menu= null;   
+            $newsletters= null;                
+            $tool= null;   
+        }
      $items =array();
 	 echo Menu::widget(array(
 	    'items' => array(
-            	 array('label' => 'Content Manager',
-        	            'url' =>array('category/index'),
-        	            'options'=>array('class'=>'nav-header'),
-        	            'template' => '<a href="javascript:void(0)" class="href_class">{label}</a>',
-        	            'items' =>array(
-        	                array('label' => 'Category', 'url' =>array('category/index')),
-                            array('label' => 'Article', 'url' => array('article/index')),
-        	               // array('label' => 'Banner', 'url' => array('banner/index')),   
-        	            )        
-        	        ),     
-                 array('label' =>Yii::t('app','Tour'),
-        	            'url' =>array('tour/index'),
-        	            'options'=>array('class'=>'nav-header'),
-        	            'template' => '<a href="javascript:void(0)" class="href_class">{label}</a>',
-        	            'items' =>array(
-                            array('label' => 'Category Tour', 'url' => array('tourcate/index')),
-        	                array('label' => 'Tour', 'url' =>array('tour/index')),
-                            array('label' => 'Book Tour','class'=>'nav-header','url' =>array('booktour/index')), 
-                            array('label' => 'Destination', 'url' =>array('destination/index')),       	               
-        	            )        
-        	        ),
-                    array('label' => 'Blog',
-        	            'url' =>array('blog/index'),
-        	            'options'=>array('class'=>'nav-header'),
-        	            'template' => '<a href="javascript:void(0)" class="href_class">{label}</a>',
-        	            'items' =>array(
-                            array('label' => 'Category', 'url' => array('blogcate/index')),
-        	                array('label' => 'Article', 'url' =>array('blog/index')),
-        	            )        
-        	        ),
-                    array('label' => 'Cotravel', 'url' => array('cotravel/index')),
-                    array('label' => 'Review', 'url' => array('review/index')), 
-                    array('label' => 'Video', 'url' => array('video/index')), 
-                    array('label' => 'Comments', 'url' => array('comment/index')), 
-                    array('label' => 'Ourteam', 'url' => array('ourteam/index')),
-                    array('label' => 'Image Lib', 'url' => array('itemimg/index')),
-                    array('label' => 'User',
-        	            'url' =>array('account/index'),
-        	            'options'=>array('class'=>'nav-header'),
-        	            'template' => '<a href="javascript:void(0)" class="href_class">{label}</a>',
-        	            'items' =>array(
-        	                        array('label' => 'Account', 'url' => array('account/index')),   
-                                    array('label' => 'User Manager', 'url' => array('user/index')), 
-                                   //array('label' => 'Sales', 'url' => array('sales/index')),     
-            	           )        
-        	        ),
-                    array('label' => 'Menu', 'url' =>array('menu/index')),   
-                    array('label' => 'Newsletters', 'url' =>array('newsletters/index')),                
-                    array('label' => 'Tools ',
-        	            'url' =>array('tools/index'),
-        	            'options'=>array('class'=>'nav-header'),
-        	            'template' => '<a href="javascript:void(0)" class="href_class">{label}</a>',
-        	            'items' =>array(
-                                   //array('label' => 'Attribute group', 'url' => array('attributegroup/index')),
-                                   //array('label' => 'Attribute ', 'url' => array('attribute/index')),
-                                   array('label' => 'Countrys', 'url' => array('country/index')),
-                                   array('label' => 'Regions', 'url' => array('region/index')),  
-                                   array('label' => 'Districts', 'url' => array('district/index')),   
-        	                       array('label' => 'Tools ', 'url' => array('tools/index')),
-                                   array('label' => 'Alias Url ', 'url' => array('aliasurl/index')),
-                                   array('label' => 'Log', 'url' => array('log/index')), 
-                                   array('label' => 'IP', 'url' => array('logip/index')),         
-                                  //array('label' => 'Sitemap ', 'url' => array('../tools/cronsitemap.php?key=d1MyuomRffghe323')),
-            	           )        
-        	        ),   
-                    
+            $conten_manager,     
+            $tour,
+            $blog,
+            $cotravel,
+            $review, 
+            $video, 
+            $comment, 
+            $ourteam,
+            $image_lib,
+            $user,
+            $menu,   
+            $newsletters,                
+            $tool,   
 	    ),
        // 'activeCssClass'=>'open',  
        'submenuTemplate' => "\n<ul class='dropdown' role='menu'>\n{items}\n</ul>\n",   

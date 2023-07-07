@@ -67,7 +67,57 @@ class AccountController extends Controller {
  public function actionIndex() {      
          $model = new Account();   
          $dataProvider = $model->search(Yii::$app->request->get());         
+
+         if(!empty($_GET['date_start']) && !empty($_GET['date_end']) && isset($_GET['_export']))
+         {
+            $date_start = $_GET['date_start'];
+            $date_end = $_GET['date_end'];
+
+            $query =  Account::find()
+            ->where(['between', 'created', $date_start, $date_end ])->all();
+            if(!empty($query)){
+                $this->exportData($query);
+            }
+            
+         }
+         
         return $this->render('index',array('model' =>$model,'dataProvider' => $dataProvider));
+    }
+    private function exportData($dataProvider){
+        if( !empty($dataProvider) ){
+            $objPHPExcel = new \PhpOffice\PhpSpreadsheet\Spreadsheet();
+            $sheet=0;
+
+            $objPHPExcel->setActiveSheetIndex($sheet);
+
+            $objPHPExcel->getActiveSheet()->getColumnDimension('B')->setWidth(20);
+            $objPHPExcel->getActiveSheet()->getColumnDimension('C')->setWidth(20);
+            $objPHPExcel->getActiveSheet()->getColumnDimension('D')->setWidth(20);
+
+            $objPHPExcel->getActiveSheet()->setCellValueByColumnAndRow(1, 1, 'first name');
+            $objPHPExcel->getActiveSheet()->setCellValueByColumnAndRow(2, 1, 'last name');
+            $objPHPExcel->getActiveSheet()->setCellValueByColumnAndRow(3, 1, 'email');
+            $objPHPExcel->getActiveSheet()->setCellValueByColumnAndRow(4, 1, 'phone');
+            $objPHPExcel->getActiveSheet()->setCellValueByColumnAndRow(5, 1, 'create');
+        
+
+            foreach ($dataProvider as $dk => $dv){
+                $objPHPExcel->getActiveSheet()->setCellValueByColumnAndRow(1, $dk+2, $dv->first_name);
+                $objPHPExcel->getActiveSheet()->setCellValueByColumnAndRow(2, $dk+2, $dv->last_name);
+                $objPHPExcel->getActiveSheet()->setCellValueByColumnAndRow(3, $dk+2, $dv->email);
+                $objPHPExcel->getActiveSheet()->setCellValueByColumnAndRow(4, $dk+2, $dv->phone);
+                $objPHPExcel->getActiveSheet()->setCellValueByColumnAndRow(5, $dk+2, $dv->created);
+            }
+
+            header('Content-Type: application/vnd.ms-excel');
+            $filename = "test.xls";
+            header('Content-Disposition: attachment;filename='.$filename .' ');
+            header('Cache-Control: max-age=0');
+            $objWriter = \PhpOffice\PhpSpreadsheet\IOFactory::createWriter($objPHPExcel, 'Xls');
+            $objWriter->save('php://output');
+            die();
+
+        }
     }
   //create
   public function actionCreate() {

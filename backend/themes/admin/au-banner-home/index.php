@@ -6,7 +6,7 @@ use yii\widgets\Pjax;
 /* @var $this yii\web\View */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = Yii::t('app', 'Au Banner Homes');
+$this->title = Yii::t('app', 'Banner Homes');
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="au-banner-home-index">
@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php Pjax::begin(); ?>
 
     <p>
-        <?= Html::a(Yii::t('app', 'Create Au Banner Home'), ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a(Yii::t('app', 'Create Banner'), ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?= GridView::widget([
@@ -33,7 +33,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
                 'attribute' => 'path',
     
-                'format' => 'html',
+                'format' => 'raw',
     
                 'label' => 'image/video',
     
@@ -41,12 +41,19 @@ $this->params['breadcrumbs'][] = $this->title;
                     // echo '<pre>';
                     // print_r($data->path);
                     // echo '</pre>';die;
-                    return Html::img($data->path,array('style'=>'width: 180px;height: 120;'));
+                    if($data->type == 1)
+                        return Html::img('/'.$data->path,array('style'=>'width: 180px;height: 120;'));
+                    else    
+                        return '<video width="470" height="255" controls>
+                        <source src="/'. $data->path .'" type="video/mp4">
+                        </object>
+                    </video>';
 
     
                 },
     
             ],
+            'position',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

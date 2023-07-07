@@ -31,9 +31,11 @@ class BannerHome extends \yii\db\ActiveRecord
     {
         return [
             [['type', 'created_by', 'status'], 'integer'],
-            [['path', 'status'], 'required'],
+            [['status','position'], 'required'],
             [['create'], 'safe'],
             [['path'], 'string', 'max' => 100],
+            [['path'], 'file', 'skipOnEmpty' => true, 'extensions' => 'png, jpg,jpeg,mp4'],
+
         ];
     }
 
@@ -49,6 +51,7 @@ class BannerHome extends \yii\db\ActiveRecord
             'create' => 'Create',
             'created_by' => 'Created By',
             'status' => 'Status',
+            'position' => 'Position',
         ];
     }
 

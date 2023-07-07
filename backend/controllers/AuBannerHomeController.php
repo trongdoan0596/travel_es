@@ -68,14 +68,22 @@ class AuBannerHomeController extends Controller
         $model = new BannerHome();
         if ($model->load(Yii::$app->request->post())) {
             $model->path = UploadedFile::getInstance($model,'path');
+
             if(!empty($model->path)){      
+                if($model->path->type == 'video/mp4')
+                    $model->type = 2;
+                else
+                    $model->type = 1;
+                    
                 $path         = substr(Yii::$app->basePath,0,-7).'/media/banner/'; 
-                $file_name = "video_".rand();
+                $file_name = "file_".rand();
                 $model->path->saveAs($path.$file_name.'.'.$model->path->extension);
-                $model->path = '/media/banner/'.$file_name.'.'.$model->path->extension;
+                $model->path = 'media/banner/'.$file_name.'.'.$model->path->extension;
+                $model->create = date('y-m-d H:i:s');
             }
-            $model->save();
-            return $this->redirect(['index', 'id' => $model->id]);
+            $model->save(false);
+            Yii::$app->session->setFlash('success', "Tạo banner thành công.");
+            return $this->redirect(['index']);
         }
 
         return $this->render('create', [
@@ -95,16 +103,24 @@ class AuBannerHomeController extends Controller
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post())) {
-            $model->path = UploadedFile::getInstance($model,'path');
+            // $model->path = UploadedFile::getInstance($model,'path');
             $model->status = Yii::$app->request->post()['BannerHome']['status'];
-            if(!empty($model->path)){      
-                $path         = substr(Yii::$app->basePath,0,-7).'/media/banner/'; 
-                $file_name = "video_".rand();
-                $model->path->saveAs($path.$file_name.'.'.$model->path->extension);
-                $model->path = $path.$file_name.'.'.$model->path->extension;
-            }
-            $model->save();
-            return $this->redirect(['index', 'id' => $model->id]);
+            $model->position = Yii::$app->request->post()['BannerHome']['position'];
+            // if(!empty($model->path)){      
+            //     if($model->path->type == 'video/mp4')
+            //         $model->type = 2;
+            //     else
+            //         $model->type = 1;
+                    
+            //     $path         = substr(Yii::$app->basePath,0,-7).'/media/banner/'; 
+            //     $file_name = "file_".rand();
+            //     $model->path->saveAs($path.$file_name.'.'.$model->path->extension);
+            //     $model->path = '/media/banner/'.$file_name.'.'.$model->path->extension;
+            //     $model->create = date('y-m-d H:i:s');
+            // }
+            $model->save(false);
+            Yii::$app->session->setFlash('success', "Cập nhật thành công.");
+            return $this->redirect(['index']);
         }
 
         return $this->render('update', [
